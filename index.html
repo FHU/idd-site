@@ -28,10 +28,36 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <!-- THIS SCRIPT IS FOR JOBS PAGE - Andy -->
+               <script>
+            function load_chart(){
+                
+
+var chart = document.getElementById("jobs-chart");
+var jobs = chart.getElementsByTagName("li");
+var view_width = window.getComputedStyle(chart).width.replace("px", "").replace("PX", "");
+for(var i = 0; i < jobs.length; ++i) {
+   var job = jobs[i];
+   var wage = job.getElementsByTagName("span")[0].innerHTML;
+   var amount = wage.replace("$","").replace(",","");
+   var new_size = (amount * view_width) / 80000;
+   console.log(amount +"*"+ view_width + "/ 80000")
+   job.style.width = new_size + "PX";
+}
+            }
+            
+            window.addEventListener('resize', function(event){
+  load_chart();
+});
+    </script>
+    <!-- END SCRIPT FOR JOBS PAGE -->
+    
   </head>
   <body>
     
     <header>
+
     	<h1>Freed-Hardeman University</h1>
     	<h1>Major in Interactive Digital Design</h1>
 
@@ -47,9 +73,28 @@
 
     	</nav>
 
+
+        <div class="container" >
+		
+	    <img src="images/header-img.png" alt="Gannon computer sciencing" />
+		
+        	<nav class="col-xs-12"> 
+        		<ul class="col-xs-12">
+        			<li class="col-xs-2"> <a href="#what-is-idd" > What Is IDD </a> </li>
+        			<li class="col-xs-2"> <a href="#create" > What will I Create</a> </li>
+        			<li class="col-xs-2"> <a href="#classes" > How Are Classes </a> </li>
+        			<li class="col-xs-2"> <a href="#jobs" > Learn About Jobs </a> </li>
+        			<li class="col-xs-2"> <a href="#learn" > Who Helps Me Learn </a> </li>
+        			<li class="col-xs-2"> <a href="#apply" > How To Apply </a> </li>
+        		</ul>
+
+        	</nav>
+
+        </div> 
     </header>
 
-    <section id="what-is-idd">
+
+    <section id="whatIsIDD">
 
     	<h2>What is Interactive Digital Design</h2>
 
@@ -63,7 +108,54 @@
     </section>
 
     <section id="classes">
+
     	<h2>What About the Classes</h2>
+        <article>
+            <h3>Core Classes</h3>
+            <h4>8 Total Classes</h4>
+            <ul>
+                <li>Intro to Programming</li>
+                <li>Computer Programming I</li>
+                <li>Intro to Web Design</li>
+                <p>In this class, students learn the fundamental building blocks of web sites: HTML, CSS, and JavaScript. Student build real websites for real clients in order to gain real experience. Through engaging lectures, collaborative assignments, and challenging website development projects, students grow in their technical and design skills.</p>
+                <img src="">
+                <img src="">
+                <img src="">
+                <li>Computer Programming II</li>
+                <li>2-D Design</li>
+                <li>Intro to Photography</li>
+                <li>Digital Graphic Fundamentals</li>
+                <p>This class provides beginning skills necessary to create visual communication and presentation. Digital Graphic Fundamentals is an introductory course that provides students with the fundamental skills needed to effectively use software important to the field of digital design.</p>
+                <p>Students will become familiar with each program’s interface and capabilities through lectures, demonstrations, and projects.</p>
+                <li>3-D Design</li>
+                <li>Upper Division Electives (ART or CIS) (e.g. internship)</li>
+                <li>Capstone Project</li>
+            </ul>
+        </article>
+        <article>
+            <h3>Developer Track (B.S.)</h3>
+                <ul>
+                    <li>Visual Application Programming</li>
+                    <li>Web Application Programming</li>
+                    <li>Advanced Web Design</li>
+                    <p>In Advanced Web Design, students will consider cutting edge techniques in modern web design (HTML5, CSS3, JavaScript). They will use these tools to create significant web sites for professional clients.</p>
+                    <li>Human-Computer Interaction</li>
+                    <li>Database Systems</li>
+                    <li>Mobile Application Development</li>
+                    <p>In this class students will learn how to design and develop applications for mobile devices.  The course will focus on the real-world experience of developing beautiful and usable apps for iOS, Android, and Web platforms. </p>
+                </ul>
+        </article>
+        <article>
+            <h3>Designer Track (B.A.)</h4>
+            <ul>
+                <li>Graphic Design I</li>
+                <li>Graphic Design II</li>
+                <li>Digital Photography for Design</li>
+                <p>This class provides opportunities to explore ways to communicate specific messages visually with viewers.</p>
+                <p>This course is an advanced class in design and graphic approaches to digital photography. It emphasizes the materials, tools, hardware, software, techniques, and procedures used in preparing photographic and design solutions. </p>
+                <li>Readings in Art History</li>
+                <li>Upper Division Elective (CIS or ART)</li>
+        </article>
     </section>
 
     <section id="jobs">
@@ -79,10 +171,69 @@
     	<h2>How to Apply</h2>
     </section>
 
+    <div class="container" >
+        <section id="what-is-idd">
+
+        	<h2>What is Interactive Digital Design</h2>
+
+        </section>
+
+
+        <section id="create">
+
+        	<h2>What Will I Create</h2>
+
+        </section>
+
+       <section id="classes">
+        	<h2>What About the Classes</h2>
+        </section>
+
+		<section id="jobs">
+			<div class="row">
+				<div class="col-lg-4">
+					<h2>What Kind of Jobs Can I Get</h2>
+				</div>
+				<div class="col-lg-8">
+					<p>A degree in Interactive Digital Design prepares you for a
+						range of design and development jobs for both the web and mobile
+						app platform. Students with greater technical inclination will be
+						prepared to get jobs as web developers, mobile app developers, and
+						software developers. Graduates with greater interest in design
+						will be prepared to apply those skills to web and app design in
+						addition to positions like user experience designer and user
+						interface designer.</p>
+					<h3>
+						<span>Job Title</span>Median Salary Range
+					</h3>
+					<h4 class="jobs-subtitle">Salary data from payscale.com</h4>
+					<ul class="chart-box" id="jobs-chart">
+						<li>Mobile App Designer/Developer<span>$68,111</span></li>
+						<li>Web Designer<span>$42,699</span></li>
+						<li>Web Developer<span>$52,094</span></li>
+						<li>User Experience (UX) Designer<span>$76,365</span></li>
+						<li>Interactive Designer/Developer<span>$53,546</span></li>
+						<li>User Interface (UI) Designer<span>$72,565</span></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="learn">
+        	<h2>Who Helps Me Learn</h2>
+        </section>
+
+        <section id="apply">
+        	<h2>How to Apply</h2>
+        </section>
+
+    </div>
+
     <footer>
-
-    	<p> Copyright 2014 Freed-Hardeman University. All rights reserved.</p>
-
+        <div class="container" >
+        	<p> Copyright 2014 Freed-Hardeman University. All rights reserved.</p>
+        </div>
     </footer>
 
 
