@@ -5,7 +5,19 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
+}
+
+h1, h2 {
 	font-weight: 700; 
+}
+
+h3 {
+	font-weight: 400; 
+}
+
+h4, h5, h6{
+	font-weight: 300; 
 }
 
 header {
@@ -50,6 +62,12 @@ header .container img {
                 padding-left: 9px;
                 margin-left: 9px;
                 border-left: #fff 2px solid;
+            }
+            
+            #jobs h3 span {
+                padding-right: 9px;
+                margin-right: 9px;
+                border-right: #000 3px solid;
             }
 
 
