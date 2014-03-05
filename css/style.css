@@ -70,7 +70,7 @@ header .container img {
 
 /*** Jobs ***/
 
-.chart-box {
+#jobs ul {
                 border-left: #a6cd66 1px solid;
                 border-bottom: #a6cd66 1px solid;
                 background: #fff;
@@ -78,7 +78,7 @@ header .container img {
                 
             }
             
-            .chart-box li {
+            #jobs ul li {
                 background: #a6cd66;
                 list-style: none;
                 padding: 13px 15px;
@@ -91,7 +91,7 @@ header .container img {
                 white-space: nowrap;
             }
             
-            .chart-box li span {
+            #jobs ul li span {
                 padding-left: 9px;
                 margin-left: 9px;
                 border-left: #fff 2px solid;
