@@ -21,6 +21,10 @@ img {
 
 
 /*** Nav styles ***/
+#navBackground{
+	background-color: #e8e8e8;
+}
+
 header nav{
 	background-color: #e8e8e8;
 	color: black;
