@@ -1,4 +1,6 @@
 
+
+/*** Global Styles ***/ 
 body {
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;	
@@ -13,6 +15,9 @@ h1, h2 {
 	font-weight: 700; 
 }
 
+img {
+	max-width:100%;
+}
 
 
 /*** Nav styles ***/
