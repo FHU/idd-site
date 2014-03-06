@@ -115,11 +115,14 @@ header .container img {
 /*** Apply ***/
 
 footer {
-	background-color: #e8e8e8;
+	
+	width: 100%;
 }
 
 footer .container {
-	width:100%;
+	display: block;
+	margin:0 auto;
+	background-color: #e8e8e8;
 	max-width:1200px; 
 	text-align: center;
 }
