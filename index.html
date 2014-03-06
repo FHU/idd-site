@@ -42,50 +42,70 @@
 	    </div><!-- end image row -->
 	</div><!-- end container -->
 	<div id="navBackground">
-	  <div class="container">
-	    <nav class="row"> 
-	      <ul class="col-xs-12">
-		      <li class="col-xs-6 col-sm-2"> <a href="#what-is-idd" > What Is <span class="whiteNavText">I.D.D.</span></a> </li>
-		      <li class="col-xs-6 col-sm-2"> <a href="#create" > What will I <span class="whiteNavText">Create</span></a> </li>
-		      <li class="col-xs-6 col-sm-2"> <a href="#classes" > How Are <span class="whiteNavText">Classes</span> </a> </li>
-		      <li class="col-xs-6 col-sm-2"> <a href="#jobs" > Learn About <span class="whiteNavText">Jobs</span> </a> </li>
-		      <li class="col-xs-6 col-sm-2"> <a href="#learn" > Who Helps Me <span class="whiteNavText">Learn</span> </a> </li>
-		      <li class="col-xs-6 col-sm-2"> <a href="#apply" > How To <span class="whiteNavText">Apply</span> </a> </li>
-	      </ul>
-	    </nav>
-	  </div><!-- end container -->
+	  <div id="anotherContainer">
+	  <div id="navBorder">
+	    <div class="container">
+	      <nav class="row"> 
+		<ul class="col-xs-12">
+			<li class="col-xs-6 col-sm-2"> <a href="#what-is-idd" > What Is <span class="whiteNavText">I.D.D.</span></a> </li>
+			<li class="col-xs-6 col-sm-2"> <a href="#create" > What will I <span class="whiteNavText">Create</span></a> </li>
+			<li class="col-xs-6 col-sm-2"> <a href="#classes" > How Are <span class="whiteNavText">Classes</span> </a> </li>
+			<li class="col-xs-6 col-sm-2"> <a href="#jobs" > Learn About <span class="whiteNavText">Jobs</span> </a> </li>
+			<li class="col-xs-6 col-sm-2"> <a href="#learn" > Who Helps Me <span class="whiteNavText">Learn</span> </a> </li>
+			<li class="col-xs-6 col-sm-2"> <a href="#apply" > How To <span class="whiteNavText">Apply</span> </a> </li>
+		</ul>
+	      </nav>
+	    </div><!-- end container -->
+	  </div>
+	  </div>
 	</div><!-- end navBackground -->
     </header>
 
     <div class="container" >
 
         <section id="whatIsIDD">
+            <div class="row">
+                <h2 class="title-basics col-md-3">What is <span>Interactive </span><strong>Digital Design</strong></h2>
 
-    	   <h2>What is Interactive Digital Design</h2>
+            <article class="col-md-9">
+
+            </article>
+            </div>
+    	   
 
         </section>
 
 
         <section id="create">
 
-    	   <h2>What Will I Create</h2>
+    	   <div class="row">
+               <h2 class="title-basics col-md-3 create-title">What Will I <strong>Create</strong></h2>
+
+                <article class="col-md-9">
+
+                </article>
+
+            </div>
 
         </section>
 
         <section id="classes">
             <div class="row">
-                <h2 class="col-md-3">What About the Classes</h2>
-                <article class="col-md-9">
+                <h2 class="col-md-3">About the Classes</h2>
+                <article class="col-md-9 core-classes">
+                    <!--<svg id="left-line"></svg>-->
                     <h3>Core Classes</h3>
                     <h4>8 Total Classes</h4>
-                    <ul>
+                    <ul class="core-classes-offset">
                         <li>Intro to Programming</li>
                         <li>Computer Programming I</li>
                         <li>Intro to Web Design</li>
                         <p>In this class, students learn the fundamental building blocks of web sites: HTML, CSS, and JavaScript. Student build real websites for real clients in order to gain real experience. Through engaging lectures, collaborative assignments, and challenging website development projects, students grow in their technical and design skills.</p>
-                        <img src="images/milan-site.png" class="" alt="Milan Website">
-                        <img src="images/ccc-site.png" class="" alt="Colliersville Church of Christ Website">
-                        <img src="images/indian-creek-site.png" class="" alt="Indian Creek Website">
+                        <div class="row">
+                            <img src="images/milan-site.png" class="col-sm-4 col-xs-8" alt="Milan Website">
+                            <img src="images/ccc-site.png" class="col-sm-4 col-xs-8" alt="Colliersville Church of Christ Website">
+                            <img src="images/indian-creek-site.png" class="col-sm-4 col-xs-8" alt="Indian Creek Website">
+                        </div>
                         <li>Computer Programming II</li>
                         <li>2-D Design</li>
                         <li>Intro to Photography</li>
@@ -101,7 +121,7 @@
             <div class="row">
                 <article class="col-md-4 col-md-offset-3">
                     <h3>Developer Track (B.S.)</h3>
-                        <ul>
+                        <ul class="track-classes-offset">
                             <li>Visual Application Programming</li>
                             <li>Web Application Programming</li>
                             <li>Advanced Web Design</li>
@@ -114,7 +134,7 @@
                 </article>
                 <article class="col-md-4">
                     <h3>Designer Track (B.A.)</h4>
-                    <ul>
+                    <ul class="track-classes-offest">
                         <li>Graphic Design I</li>
                         <li>Graphic Design II</li>
                         <li>Digital Photography for Design</li>
@@ -179,6 +199,7 @@
         </section>
 
     </div>
+>>>>>>> FETCH_HEAD
 
     <footer>
         <div class="container" >
