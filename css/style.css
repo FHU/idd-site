@@ -90,6 +90,14 @@ header .container img {
 
 /*** What is IDD ***/
 
+#whatIsIDD h2 {
+	border-bottom: #e8e8e8 2px solid;
+	padding-bottom: 50px;
+}
+
+#whatIsIDD article {
+	
+}
 /*** Create ***/
 
 /*** Classes ***/
