@@ -119,6 +119,10 @@ footer .container {
 	text-align: center;
 }
 
-footer .container .child {
+footer .container img {
 	margin: 60px auto;
+}
+
+footer .container p {
+	margin: 0 auto 60px auto;
 }
