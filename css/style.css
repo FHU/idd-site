@@ -84,6 +84,15 @@ img {
 	border-bottom: 1px solid white;
 }
 
+.stickyNav{
+	position: fixed;  
+	width: 100%;  
+	left: 0;  
+	top: 0;  
+	z-index: 100;  
+	border-top: 0; 
+}
+
 .whiteNavText{
 	color: white;
 	display:block;
