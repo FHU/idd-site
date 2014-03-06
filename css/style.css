@@ -25,6 +25,13 @@ img {
 	background-color: #e8e8e8;
 }
 
+.whiteNavText{
+	color: white;
+	display:block;
+	width:100%;
+	text-align: center;
+}
+
 header nav{
 	background-color: #e8e8e8;
 	color: black;
@@ -36,6 +43,7 @@ header nav{
 header nav li{
 	list-style: none;
 	height: 100%;
+	text-align: center;
 }
 
 header nav ul{	
