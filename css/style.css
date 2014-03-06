@@ -157,6 +157,19 @@ header .container img {
 	list-style: none;
 }
 
+#classes p {
+	margin-left: 15px;
+}
+
+.core-classes-offset {
+	margin-left: -6%;
+}
+
+.track-classes-offset {
+	margin-left: -13%;
+}
+
+
 .core-classes  {
 	margin-top: -5%;
 }
