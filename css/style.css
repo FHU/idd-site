@@ -96,14 +96,14 @@ header .container img {
 
 /*** Jobs ***/
 
-#jobs ul {
+#jobs ul.chart-box {
 	border-left: #a6cd66 1px solid;
 	border-bottom: #a6cd66 1px solid;
 	background: #fff;
 	padding: 7px 0;
 }
 
-#jobs ul li {
+#jobs ul.chart-box li {
 	background: #a6cd66;
 	list-style: none;
 	padding: 13px 15px;
@@ -116,7 +116,7 @@ header .container img {
 	white-space: nowrap;
 }
 
-#jobs ul li span {
+#jobs ul.chart-box li span {
 	padding-left: 9px;
 	margin-left: 9px;
 	border-left: #fff 2px solid;
@@ -127,6 +127,36 @@ header .container img {
 	margin-right: 9px;
 	border-right: #000 3px solid;
 }
+
+#jobs ul.chart-values {
+	padding: 0 15px;
+	width: 108%;
+	position: relative;
+	left: -2px;
+}
+
+#jobs > div {
+	overflow: hidden;
+}
+
+#jobs ul.chart-values li {
+	color: #a6cd66;
+	list-style: none;
+	display: block;
+	float: left;
+	margin-right: 12%;
+	position: relative;
+	left: -5px;
+}
+
+#jobs ul.chart-values li:first-child {
+	left: 0;
+}
+
+#jobs ul.chart-values li:last-child {
+	margin-right: 0%;
+}
+
 
 /*** Learn ***/
 
