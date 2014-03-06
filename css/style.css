@@ -55,11 +55,14 @@ h4, h5, h6{
 
 header {
 	background: #000;
+	width: 100%;
+	max-height: 1200px;
 }
 
 header .container img {
-	max-width: 1140px;
+	max-width: 1200px;
 	width:100%;
+	/*margin-bottom:50px height of nav;*/
 }
 
 /*** What is IDD ***/
@@ -105,3 +108,17 @@ header .container img {
 /*** Learn ***/
 
 /*** Apply ***/
+
+footer {
+	background-color: #e8e8e8;
+}
+
+footer .container {
+	width:100%;
+	max-width:1200px; 
+	text-align: center;
+}
+
+footer .container .child {
+	margin: 60px auto;
+}
