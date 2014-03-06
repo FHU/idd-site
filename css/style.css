@@ -15,6 +15,10 @@ h1, h2 {
 	font-weight: 700; 
 }
 
+section {
+	margin-bottom: 7em;
+}
+
 .title-basics {
     margin-top: 30px;
     height: auto;
