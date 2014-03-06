@@ -33,6 +33,11 @@ img {
 	font-size: 1.5em;
 }
 
+header nav ul li:hover{
+	background-color: #D9D8D8;
+	box-shadow: 0 0 5px #e8e8e8 inset;
+}
+
 header nav{
 	background-color: #e8e8e8;
 	color: black;
