@@ -97,6 +97,29 @@ header .container img {
 	list-style: none;
 }
 
+#core-classes-svgs {
+	float: left;
+	width: 10%;
+}
+
+#core-classes-svgs svg:nth-child(1) {
+	height: 200px;
+}
+
+#core-classes-svgs svg:nth-child(2) {
+	height: 200px;
+}
+
+#core-classes-svgs svg:nth-child(3) {
+	height: 200px;
+}
+
+
+#core-classes-content {
+	float: left;
+	width: 90%;
+}
+
 /*** Jobs ***/
 
 #jobs ul {
