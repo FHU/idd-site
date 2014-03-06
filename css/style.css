@@ -21,19 +21,36 @@ img {
 
 
 /*** Nav styles ***/
+#navBackground{
+	background-color: #e8e8e8;
+}
+
+.whiteNavText{
+	color: white;
+	display:block;
+	width:100%;
+	text-align: center;
+}
+
 header nav{
 	background-color: #e8e8e8;
 	color: black;
+	text-transform: uppercase;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 header nav li{
 	list-style: none;
 	height: 100%;
+	text-align: center;
 }
 
 header nav ul{	
-	background-color: #fff;
-	opacity: 0.9;
+	/*background-color: #fff;
+	opacity: 0.9;*/
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
 }
 
 header nav ul li a{
