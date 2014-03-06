@@ -102,6 +102,10 @@ header .container img {
 	list-style: none;
 }
 
+.core-classes  {
+	margin-top: -5%;
+}
+
 /*** Jobs ***/
 
 #jobs ul {
