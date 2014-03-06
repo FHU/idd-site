@@ -1,4 +1,6 @@
 
+
+/*** Global Styles ***/ 
 body {
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;	
@@ -13,22 +15,43 @@ h1, h2 {
 	font-weight: 700; 
 }
 
+img {
+	max-width:100%;
+}
 
 
 /*** Nav styles ***/
+#navBackground{
+	background-color: #e8e8e8;
+}
+
+.whiteNavText{
+	color: white;
+	display:block;
+	width:100%;
+	text-align: center;
+	font-size: 1.5em;
+}
+
 header nav{
 	background-color: #e8e8e8;
 	color: black;
+	text-transform: uppercase;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 header nav li{
 	list-style: none;
 	height: 100%;
+	text-align: center;
 }
 
 header nav ul{	
-	background-color: #fff;
-	opacity: 0.9;
+	/*background-color: #fff;
+	opacity: 0.9;*/
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
 }
 
 header nav ul li a{
@@ -55,11 +78,14 @@ h4, h5, h6{
 
 header {
 	background: #000;
+	width: 100%;
+	max-height: 1200px;
 }
 
 header .container img {
-	max-width: 1140px;
+	max-width: 1200px;
 	width:100%;
+	/*margin-bottom:50px height of nav;*/
 }
 
 /*** What is IDD ***/
@@ -105,3 +131,24 @@ header .container img {
 /*** Learn ***/
 
 /*** Apply ***/
+
+footer {
+	
+	width: 100%;
+}
+
+footer .container {
+	display: block;
+	margin:0 auto;
+	background-color: #e8e8e8;
+	width:100%;
+	text-align: center;
+}
+
+footer .container img {
+	margin: 60px auto;
+}
+
+footer .container p {
+	margin: 0 auto 60px auto;
+}
