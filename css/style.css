@@ -93,6 +93,9 @@ header .container img {
 /*** Create ***/
 
 /*** Classes ***/
+#classes li {
+	list-style: none;
+}
 
 /*** Jobs ***/
 
