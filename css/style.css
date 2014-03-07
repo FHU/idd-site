@@ -70,7 +70,7 @@ section h2 {
 
 section h2:after {
 	content: "";
-	height: 400px;
+	height: 270px;
 	width: 2px;
 	display: block;
 	position: absolute;
@@ -202,11 +202,18 @@ header .container #img-text .heading {
 
 #whatIsIDD h2 {
 	border-bottom: #e8e8e8 2px solid;
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 }
 
 #whatIsIDD article {
 	
+	margin-top: 50px;
+	padding-right: 35px;
+}
+
+#whatIsIDD article2 {
+	margin-top: 50px;
+	padding-right: 25px;
 }
 /*** Create ***/
 
