@@ -223,19 +223,81 @@ header .container #img-text .heading {
 
 #core-classes-svg-container-1,
 #core-classes-svg-container-2,
-#core-classes-svg-container-3 {
-	height: 100%;
+#core-classes-svg-container-3,
+#dev-track-svg-container-1,
+#dev-track-svg-container-2,
+#design-track-svg-container-1,
+#design-track-svg-container-2 {
+	float: left;
+	width: 10%;
 	overflow: hidden;
 }
 
-#core-classes-svg-1,
-#core-classes-svg-2,
-#core-classes-svg-3 {
-	height: 110%;
+#core-classes-1,
+#core-classes-2,
+#core-classes-3,
+#dev-track-1,
+#dev-track-2,
+#design-track-1,
+#design-track-2  {
+	float: left;
+	width: 90%;
 }
 
-#connector-svg {
-	height: 80px;
+#connector-svg-1,
+#connector-svg-2,
+#connector-svg-3 {
+	display: none;
+}
+
+#connector-svg-4,
+#end-dev-svg,
+#end-svg-1,
+#end-svg-2 {
+	float: left;
+	height: 40px;
+	width: 100%;
+}
+
+#end-svg-1 {
+	width: 40%;
+}
+
+#end-svg-2{
+	width: 60%;
+}
+
+@media (min-width: 992px){
+	#dev-track-svg-container-1,
+	#dev-track-svg-container-2,
+	#design-track-svg-container-1,
+	#design-track-svg-container-2 {
+		float: left;
+		width: 20%;
+		overflow: hidden;
+	}
+
+	#dev-track-1,
+	#dev-track-2,
+	#design-track-1,
+	#design-track-2  {
+		float: left;
+		width: 80%;
+	}
+
+	#connector-svg-1,
+	#connector-svg-2,
+	#connector-svg-3,
+	#connector-svg-4 {
+		display: block;
+		float: left;
+		height: 40px;
+		width: 50%;
+	}
+
+	#end-dev-svg-container {
+		display: none;
+	}
 }
 
 #classes p {
