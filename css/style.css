@@ -270,6 +270,24 @@ header .container #img-text .heading {
 	margin-left: -15px;
 }
 
+@media screen and (max-width: 768px) {
+	#core-classes-svg-container-1,
+	#core-classes-svg-container-2,
+	#core-classes-svg-container-3,
+	#dev-track-svg-container-1,
+	#dev-track-svg-container-2,
+	#design-track-svg-container-1,
+	#design-track-svg-container-2,
+	#connector-svg-1,
+	#connector-svg-3,
+	#connector-svg-4,
+	#end-dev-svg,
+	#end-svg-1,
+	#end-svg-2 {
+		margin-left: 0;
+	}
+}
+
 #end-svg-1 {
 	width: 40%;
 }
