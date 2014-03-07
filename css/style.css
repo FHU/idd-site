@@ -16,7 +16,6 @@ h1, h2 {
 }
 
 section {
-	margin-top: 4em;
 	margin-bottom: 7em;
 }
 
@@ -204,16 +203,18 @@ header .container #img-text .heading {
 #whatIsIDD h2 {
 	border-bottom: #e8e8e8 2px solid;
 	padding-bottom: 30px;
-	margin-top: -25px;
+	
 }
 
-#whatIsIDD article {
-	padding-right: 35px;
+#whatIsIDD p.high-emphasis {
+	font-size: 1.4em;
+	line-height: 1.6em;
 }
 
-#whatIsIDD article2 {
-	padding-right: 25px;
+#whatIsIDD p.medium-emphasis {
+	font-size: 1.2em;
 }
+
 /*** Create ***/
 
 .create-header-image{
