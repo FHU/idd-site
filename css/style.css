@@ -127,7 +127,7 @@ section h2:after {
 
 header nav ul li:hover{
 	background-color: #D9D8D8;
-	box-shadow: 0 0 15px 15px #e8e8e8 inset;
+	box-shadow: 0 0 30px 15px #e8e8e8 inset;
 }
 
 header nav{
