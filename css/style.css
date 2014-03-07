@@ -216,6 +216,10 @@ header .container #img-text .heading {
 }
 /*** Create ***/
 
+.create-header-image{
+	float: left;
+}
+
 /*** Classes ***/
 #classes li {
 	list-style: none;
