@@ -235,6 +235,7 @@ header .container #img-text .heading {
 	float: left;
 	width: 10%;
 	overflow: hidden;
+	margin-left: -15px;
 }
 
 #core-classes-1,
@@ -254,6 +255,11 @@ header .container #img-text .heading {
 	display: none;
 }
 
+#connector-svg-1,
+#connector-svg-3 {
+	margin-left: -15px;
+}
+
 #connector-svg-4,
 #end-dev-svg,
 #end-svg-1,
@@ -261,6 +267,7 @@ header .container #img-text .heading {
 	float: left;
 	height: 40px;
 	width: 100%;
+	margin-left: -15px;
 }
 
 #end-svg-1 {
