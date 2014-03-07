@@ -61,6 +61,28 @@ img {
 	max-width:100%;
 }
 
+/*** header2 right-hand bar  ***/
+
+section h2 {
+	border-bottom: 2px solid #E8E8E8;
+}
+
+section h2:after {
+	content: "";
+	height: 400px;
+	width: 2px;
+	display: block;
+	position: absolute;
+	right: 0; /* this can be negative. It should work fine.  */
+	top: 0;
+	bottom: -100px;
+	background: #E8E8E8;
+}
+
+#classes h2:after { /* Classes has custom stuff. */
+	content: "";
+	display: none;
+}
 
 /*** Nav styles ***/
 #navBackground{
