@@ -290,25 +290,25 @@ header .container #img-text .heading {
 }
 
 #jobs ul.chart-values {
-	padding: 0 15px;
-	width: 108%;
+	padding: 0 15px 0 15px;
+	width: 117.15%;
 	position: relative;
-	left: -2px;
 }
 
 #jobs > div {
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 #jobs ul.chart-values li {
+	
 	color: #a6cd66;
 	list-style: none;
 	display: block;
 	float: left;
-	margin-right: 12%;
 	position: relative;
-	left: -5px;
-	padding: 5px 0;
+	left: -5.555555%;
+	width: 11.11111%;
+	text-align: center;
 }
 
 #jobs ul.chart-values li:after {
@@ -317,13 +317,13 @@ header .container #img-text .heading {
 	height: 5px;
 	display: block;
 	position: absolute;
-	left: 10px;
+	left: 50%;
 	top: 0;
 	background: #a6cd66;
 }
 
 #jobs ul.chart-values li:first-child {
-	left: 0;
+	left: -5.45%;
 }
 
 #jobs ul.chart-values li:last-child {

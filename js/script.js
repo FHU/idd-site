@@ -11,10 +11,10 @@ $(function() {
 
 
 function load_chart() {
-	$("#jobs ul li").each(function(){
+	$("#jobs ul.chart-box li").each(function(){
 		var view_width = $("#jobs-chart").width();
 		var amount = $(this).find("span").text().replace("$","").replace(",","");
-		var new_size = (amount * view_width) / 80000;
+		var new_size = ((amount * view_width) / 80000) - 30;
 		$(this).width(new_size);
 	});
 }
