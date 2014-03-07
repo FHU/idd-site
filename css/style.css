@@ -170,45 +170,39 @@ header .container img {
 	list-style: none;
 }
 
-#core-classes-svgs {
-	float: left;
-	width: 10%;
+#core-classes-svg-container-1,
+#core-classes-svg-container-2,
+#core-classes-svg-container-3 {
+	height: 100%;
+	overflow: hidden;
 }
 
-#core-classes-svgs svg:nth-child(1) {
-	height: 200px;
+#core-classes-svg-1,
+#core-classes-svg-2,
+#core-classes-svg-3 {
+	height: 110%;
 }
 
-#core-classes-svgs svg:nth-child(2) {
-	height: 200px;
-}
-
-#core-classes-svgs svg:nth-child(3) {
-	height: 200px;
-}
-
-
-#core-classes-content {
-	float: left;
-	width: 90%;
+#connector-svg {
+	height: 80px;
 }
 
 #classes p {
 	margin-left: 15px;
 }
 
-.core-classes-offset {
-	margin-left: -6%;
-}
-
-.track-classes-offset {
-	margin-left: -13%;
-}
-
-
 .core-classes  {
 	margin-top: -5%;
 }
+
+.core-classes-offset {
+	padding-left: 0px;
+}
+
+.track-classes-offset {
+	padding-left: 0px;
+}
+
 
 /*** Jobs ***/
 
