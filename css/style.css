@@ -296,7 +296,7 @@ header .container #img-text .heading {
 }
 
 #jobs > div {
-	/*overflow: hidden;*/
+	overflow: hidden;
 }
 
 #jobs ul.chart-values li {
