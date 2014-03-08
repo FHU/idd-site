@@ -425,6 +425,61 @@ header .container #img-text .heading {
 
 /*** Apply ***/
 
+#apply p {
+	width: 90%;
+}
+
+
+#button1 {
+	
+	color: #fff;
+	display: block;
+	width: 25%;
+	margin: 15px;
+	margin-top: 25px;
+	background: #eebc59;
+	border-radius: 0px 0px 0px;
+	
+}
+
+
+#button2 {
+	
+	color: #fff;
+	display: block;
+	width: 40%;
+	margin: 15px;
+	background: #42c7f2;
+	border-radius: 0px 0px 0px;
+	
+}
+
+
+#button3 {
+	
+	color: #fff;
+	display: block;
+	width: 40%;
+	margin: 15px;
+	background: #9dc855;
+	border-radius: 0px 0px 0px;
+}
+
+#questions {
+	font-size: 14px;
+}
+
+#contacts span{
+	
+	font-size: 14px;
+	display: block;
+}
+
+.contact-name {
+	margin-top: 10px;
+}
+
+
 footer {
 	
 	width: 100%;
