@@ -15,11 +15,10 @@ h1, h2 {
 	font-weight: 700; 
 }
 
+
+
 .title-basics {
-    margin-top: 30px;
     height: auto;
-    text-align: left;
-    font-family: sans-serif;
     color: #000;
     font-size: 22px;
     letter-spacing: .2em;
