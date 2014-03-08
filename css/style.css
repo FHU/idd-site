@@ -220,6 +220,20 @@ header .container #img-text .heading {
 	float: left;
 }
 
+.fresh-pic{
+	padding-top: 20px;
+}
+
+#create{
+	background: url('../images/create-background.png') left top no-repeat;
+	
+	
+}
+
+.pic-one{
+	padding-right: 10px;
+}
+m
 /*** Classes ***/
 #classes li {
 	list-style: none;
