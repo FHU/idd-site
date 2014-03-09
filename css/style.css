@@ -1,6 +1,6 @@
 
 
-/*** Global Styles ***/ 
+/************ Global Styles ***************/ 
 body {
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
@@ -58,7 +58,7 @@ img {
 	max-width:100%;
 }
 
-/*** header2 right-hand bar  ***/
+/**************** header2 right-hand bar  ********************/
 
 section h2 {
 	border-bottom: 2px solid #E8E8E8;
@@ -81,7 +81,7 @@ section h2:after {
 	display: none;
 }
 
-/*** Nav styles ***/
+/****************** Nav styles **********************/
 #navBackground{
 	width: 100%;
 	background-color: #e8e8e8;
@@ -161,6 +161,7 @@ header nav ul li a:hover{
 	text-decoration: none;
 	color: black;
 }
+
 h3 {
 	font-weight: 400; 
 }
@@ -169,16 +170,15 @@ h4, h5, h6{
 	font-weight: 300; 
 }
 
-
 header {
 	background: #000;
 	width: 100%;
 }
 header .container {
-	position:relative;
+	position: relative;
 }
 header .container img {
-	width:100%;
+	width: 100%;
 }
 
 header .container #img-text {
@@ -195,7 +195,7 @@ header .container #img-text .heading {
 }
 
 	
-/*** What is IDD ***/
+/******************** What is IDD ************************/
 
 #whatIsIDD h2 {
 	border-bottom: #e8e8e8 2px solid;
@@ -211,7 +211,8 @@ header .container #img-text .heading {
 #whatIsIDD p.med-emphasis {
 	font-size: 1.2em;
 }
-/*** Create ***/
+
+/************************* Create *************************/
 
 .create-header-image{
 	float: left;
@@ -223,15 +224,13 @@ header .container #img-text .heading {
 
 #create{
 	background: url('../images/create-background.png') left top no-repeat;
-	
-	
 }
 
 .pic-one{
 	padding-right: 10px;
 }
-m
-/*** Classes ***/
+
+/************************** Classes **************************/
 #classes li {
 	list-style: none;
 }
@@ -357,7 +356,7 @@ m
 }
 
 
-/*** Jobs ***/
+/********************* Jobs ****************************/
 
 #jobs ul.chart-box {
 	border-left: #a6cd66 1px solid;
@@ -434,7 +433,7 @@ m
 }
 
 
-/*** Learn ***/
+/*********************** Learn ***********************/
 #learn {
 	background: url('../images/IDDBG_6Learn-26.png') left center no-repeat;
 }
@@ -518,7 +517,7 @@ m
 	margin-bottom: 0;
 }
 
-/*** Apply ***/
+/************************ Apply ************************/
 
 #apply p {
 	width: 90%;
@@ -526,7 +525,6 @@ m
 
 
 #button1 {
-	
 	color: #fff;
 	display: block;
 	width: 25%;
@@ -534,24 +532,20 @@ m
 	margin-top: 25px;
 	background: #eebc59;
 	border-radius: 0px 0px 0px;
-	
 }
 
 
 #button2 {
-	
 	color: #fff;
 	display: block;
 	width: 40%;
 	margin: 15px;
 	background: #42c7f2;
 	border-radius: 0px 0px 0px;
-	
 }
 
 
 #button3 {
-	
 	color: #fff;
 	display: block;
 	width: 40%;
@@ -576,7 +570,6 @@ m
 
 
 footer {
-	
 	width: 100%;
 }
 
