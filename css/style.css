@@ -220,18 +220,18 @@ and (max-width : 550px)
 	
 /******************** What is IDD ************************/
 
-#whatIsIDD h2 {
+#what-is-idd h2 {
 	border-bottom: #e8e8e8 2px solid;
 	padding-bottom: 30px;
 
 }
 
-#whatIsIDD p.high-emphasis {
+#what-is-idd p.high-emphasis {
 	font-size: 1.4em;
 	line-height: 1.6em;
 }
 
-#whatIsIDD p.med-emphasis {
+#what-is-idd p.med-emphasis {
 	font-size: 1.2em;
 }
 
