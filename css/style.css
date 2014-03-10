@@ -173,9 +173,11 @@ h4, h5, h6{
 header {
 	background: #000;
 	width: 100%;
+	min-height: 200px;
 }
 header .container {
 	position: relative;
+	min-height: 200px;
 }
 header .container img {
 	width: 100%;
@@ -188,12 +190,33 @@ header .container #img-text {
 	position:absolute;
 	bottom:0;
 	right:0;
+	min-height: 200px;
 }
 
 header .container #img-text .heading {
 	font-family: 'Century Gothic', Arial, sans-serif;
 }
 
+@media only screen 
+and (max-width : 550px)
+{
+	header .container img {
+		display: none;
+	}
+	
+	header .container #img-text {
+		text-align: center;
+		right: 20%;
+		left: 20%;
+		top: 30px;
+	}
+	
+	header .container #img-text .heading {
+		margin: 15px;
+		font-size: 15px;
+	}
+	
+}
 	
 /******************** What is IDD ************************/
 
