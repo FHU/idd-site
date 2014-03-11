@@ -396,12 +396,14 @@ and (max-width : 550px)
 	transition: width .1s;
 	-webkit-transition: width .1s; /* Safari */
 	white-space: nowrap;
+	font-weight: 300;
 }
 
 #jobs ul.chart-box li span {
 	padding-left: 9px;
 	margin-left: 9px;
 	border-left: #fff 2px solid;
+	font-weight: 400;
 }
 
 #jobs h3 span {
