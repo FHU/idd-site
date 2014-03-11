@@ -227,8 +227,10 @@ and (max-width : 550px)
 }
 
 #what-is-idd p.high-emphasis {
-	font-size: 1.4em;
+	font-size: 1.45em;
 	line-height: 1.6em;
+	font-weight: 300;
+	
 }
 
 #what-is-idd p.med-emphasis {
