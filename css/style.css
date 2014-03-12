@@ -408,6 +408,14 @@ and (max-width : 550px)
 	font-weight: 400;
 }
 
+@media  (max-width : 320px)
+ { /* only screen and */
+	#jobs ul.chart-box li span {
+	color: #000000;
+	right: -300px;
+}
+}
+
 #jobs h3 span {
 	padding-right: 9px;
 	margin-right: 9px;
