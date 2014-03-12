@@ -408,8 +408,14 @@ and (max-width : 550px)
 	font-weight: 400;
 }
 
-@media  (max-width : 320px)
- { /* only screen and */
+@media only screen and (max-width : 500px)
+ { 
+ #jobs ul.chart-box li {
+	padding: 7px 7px;
+	margin: 8px 0;
+	font-size: 12px;
+}
+ 
 	#jobs ul.chart-box li span {
 	color: #000000;
 	right: -300px;
