@@ -479,6 +479,7 @@ and (max-width : 550px)
 
 #learn article ul {
 	list-style: none;
+	padding-left: 0;
 }
 
 #learn article ul li {
