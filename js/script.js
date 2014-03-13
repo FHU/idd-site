@@ -1,4 +1,8 @@
 
+$(document).ready(function(){
+	$('.heading').fitText();
+	$('header .container #img-text h4').fitText( 1.5, {maxFontSize: '20px'});
+});
 
 $(function() {
 	
