@@ -191,10 +191,12 @@ header .container #img-text {
 	bottom:0;
 	right:0;
 	min-height: 200px;
+	width: 45%;
 }
 
 header .container #img-text .heading {
-	font-family: 'Century Gothic', Arial, sans-serif;
+	font-family: 'Oswald', Arial, sans-serif;
+	letter-spacing: 5px;
 }
 
 @media only screen 
@@ -205,15 +207,15 @@ and (max-width : 550px)
 	}
 	
 	header .container #img-text {
+		top:0;
 		text-align: center;
 		right: 20%;
 		left: 20%;
-		top: 30px;
+		width: auto;
 	}
 	
 	header .container #img-text .heading {
 		margin: 15px;
-		font-size: 15px;
 	}
 	
 }
