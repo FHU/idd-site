@@ -7,14 +7,26 @@ $(document).ready(function(){
 	$('header .container #img-text h3').css('letter-spacing', '13px');
 });
 
-$(function() {
-	
+
+var controller;
+$(document).ready(function() {
+	controller = new ScrollMagic();
 	$( window ).resize(function() {
-		load_chart();
+		/*load_chart();*/
 	});
 
-	load_chart();
+	
+	var controller = new ScrollMagic();
+
+	// build scene
+	var scene = new ScrollScene({triggerElement: "#jobs", duration: 200})
+					.addTo(controller)
+					.on("enter leave", function (e) {
+						load_chart();
+					});
+
 });
+
 
 
 function load_chart() {

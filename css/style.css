@@ -439,8 +439,8 @@ and (max-width : 346px)
 	color: #fff;
 	width: 0px;
 	text-transform: uppercase;
-	transition: width .1s;
-	-webkit-transition: width .1s; /* Safari */
+	transition: width 1s;
+	-webkit-transition: width 1s; /* Safari */
 	white-space: nowrap;
 	font-weight: 300;
 }
