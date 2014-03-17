@@ -52,7 +52,6 @@ section {
 	color:#222;
 }
 
-
 @media screen and (max-width:767px) {
 	.title-reposition {
 		margin-top: 60px;
@@ -63,17 +62,18 @@ section {
     height: auto;
     color: #000;
     font-size: 20px;
-    letter-spacing: .2em;
     font-weight: lighter;
     padding-bottom: 25px;
 }
 
 .title-basics span {
-     color: #e1e1e1;
-    font-size: 24px;
+    color: #e1e1e1;
+    font-size: 38px;
+    display: block;
+    margin-top: 5px;
     padding: 0;
-    margin: 0;
     font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
 }
 
 .title-basics strong {
@@ -87,6 +87,11 @@ section {
 .create-title strong {
     color: #e8e8e8;
  }
+
+ #what-is-idd .title-basics strong {
+	display: block;
+	margin-top: -62px;
+}
 
 img {
 	max-width:100%;
