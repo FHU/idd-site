@@ -158,8 +158,7 @@ section h2:after {
 	text-align: center;
 	font-size: 1.5em;
 }
-
-header nav ul li:hover{
+header nav ul li:hover, #navigation-scrollspy li.active a {
 	background-color: #D9D8D8;
 	box-shadow: 0 0 30px 15px #e8e8e8 inset;
 }
