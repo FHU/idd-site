@@ -254,91 +254,80 @@ and (max-width : 550px)
 	list-style: none;
 }
 
-#core-classes-svg-container-1,
-#core-classes-svg-container-2,
-#core-classes-svg-container-3,
-#dev-track-svg-container-1,
-#dev-track-svg-container-2,
-#design-track-svg-container-1,
-#design-track-svg-container-2 {
+.svg-container {
 	float: left;
 	width: 10%;
 	overflow: hidden;
 	margin-left: -15px;
 }
 
-#core-classes-1,
-#core-classes-2,
-#core-classes-3,
-#dev-track-1,
-#dev-track-2,
-#design-track-1,
-#design-track-2  {
+.classes-container {
 	float: left;
 	width: 90%;
 }
 
-#connector-svg-1,
-#connector-svg-2,
-#connector-svg-3 {
-	display: none;
-}
-
-#connector-svg-1,
-#connector-svg-3 {
+#connector-svg-1 {
 	margin-left: -15px;
 }
 
-#connector-svg-4,
+#connector-svg-1,
 #end-dev-svg,
 #end-svg-1,
-#end-svg-2 {
+#end-svg-2,
+#mobile-connect-svg-1,
+#mobile-connect-svg-2 {
 	float: left;
 	height: 40px;
 	width: 100%;
 	margin-left: -15px;
 }
 
+#end-dev-svg-1,
+#end-svg-1,
+#mobile-connect-svg-1 {
+	width: 40%;
+}
+
+#end-dev-svg-2,
+#end-svg-2,
+#mobile-connect-svg-2 {
+	width: 60%;
+}
+
+#connector-svg-1,
+#connector-svg-2,
+#connector-svg-3,
+#connector-svg-4 {
+	display: none;
+}
+
 @media screen and (max-width: 768px) {
-	#core-classes-svg-container-1,
-	#core-classes-svg-container-2,
-	#core-classes-svg-container-3,
-	#dev-track-svg-container-1,
-	#dev-track-svg-container-2,
-	#design-track-svg-container-1,
-	#design-track-svg-container-2,
-	#connector-svg-1,
-	#connector-svg-3,
-	#connector-svg-4,
+	.svg-container
 	#end-dev-svg,
 	#end-svg-1,
-	#end-svg-2 {
+	#end-svg-2,
+	#mobile-connect-svg-1,
+	#mobile-connect-svg-2 {
 		margin-left: 0;
 	}
 }
 
-#end-svg-1 {
-	width: 40%;
-}
-
-#end-svg-2{
-	width: 60%;
+@media (max-width: 992px){
+	#classes .row div {
+		padding-left: 0px;
+	}
 }
 
 @media (min-width: 992px){
-	#dev-track-svg-container-1,
-	#dev-track-svg-container-2,
-	#design-track-svg-container-1,
-	#design-track-svg-container-2 {
+	#dev-track .svg-container,
+	#design-track .svg-container{
 		float: left;
 		width: 20%;
 		overflow: hidden;
 	}
 
-	#dev-track-1,
-	#dev-track-2,
-	#design-track-1,
-	#design-track-2  {
+	#dev-track .classes-container,
+	#design-track .classes-container {
 		float: left;
 		width: 80%;
 	}
@@ -349,11 +338,13 @@ and (max-width : 550px)
 	#connector-svg-4 {
 		display: block;
 		float: left;
-		height: 40px;
-		width: 50%;
+		height: 80px;
+		width: 25%;
 	}
 
-	#end-dev-svg-container {
+	#end-dev-svg-container,
+	#mobile-connect-svg-1,
+	#mobile-connect-svg-2 {
 		display: none;
 	}
 }
