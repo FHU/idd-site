@@ -460,20 +460,16 @@ and (max-width : 346px)
 	font-weight: 400;
 }
 
-@media only screen and (max-width : 700px)
+@media only screen and (max-width : 600px)
  { 
-#jobs i {
+ #jobs i {
 	display: none;
 }
 }
 
-@media only screen and (max-width : 500px)
+@media only screen and (max-width : 470px)
  { 
  
- 
- #jobs ul.chart-box li {
- 
- }
 #jobs ul.chart-box li span {
 	display: block;
 	border-left: none;
