@@ -1,9 +1,14 @@
-
-
 /************ Global Styles ***************/ 
+html
+{
+    overflow-x:hidden;
+}
+
 body {
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
+
+	overflow-x:hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,7 +21,34 @@ h1, h2 {
 }
 
 section {
-	margin-bottom: 6em;
+	padding-top: 2em;
+	padding-bottom: 7em;
+}
+
+/************ Section Background Styles ***************/ 
+
+#learn, #classes{
+	position:relative;
+}
+
+#learn:before, #classes:before {
+	content:"";
+    display:block!important; /*always applied*/
+    border-bottom: 2px solid #fff;
+    opacity:0.75;
+    height:100%;
+    width:300%;
+    position:absolute;
+    left:-100%;
+    top:0;
+    z-index:-1;
+}
+
+/************ Title Styles ***************/ 
+
+
+#learn .title-basics strong, #classes .title-basics strong {
+	color:#222;
 }
 
 @media screen and (max-width:767px) {
@@ -29,17 +61,18 @@ section {
     height: auto;
     color: #000;
     font-size: 20px;
-    letter-spacing: .2em;
     font-weight: lighter;
     padding-bottom: 25px;
 }
 
 .title-basics span {
-     color: #e1e1e1;
-    font-size: 24px;
+    color: #e1e1e1;
+    font-size: 38px;
+    display: block;
+    margin-top: 5px;
     padding: 0;
-    margin: 0;
     font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
 }
 
 .title-basics strong {
@@ -53,6 +86,11 @@ section {
 .create-title strong {
     color: #e8e8e8;
  }
+
+ #what-is-idd .title-basics strong {
+	display: block;
+	margin-top: -62px;
+}
 
 img {
 	max-width:100%;
@@ -191,10 +229,14 @@ header .container #img-text {
 	bottom:0;
 	right:0;
 	min-height: 200px;
+	width: 50%;
 }
 
 header .container #img-text .heading {
-	font-family: 'Century Gothic', Arial, sans-serif;
+	font-family: 'Oswald', Arial, sans-serif;
+	letter-spacing: 5px;
+	margin: 0;
+	white-space: nowrap;
 }
 
 @media only screen 
@@ -205,19 +247,25 @@ and (max-width : 550px)
 	}
 	
 	header .container #img-text {
+		top:0;
 		text-align: center;
-		right: 20%;
-		left: 20%;
-		top: 30px;
+		width: auto;
 	}
 	
 	header .container #img-text .heading {
 		margin: 15px;
-		font-size: 15px;
+		display: inline-block;
 	}
 	
 }
-	
+
+@media only screen 
+and (max-width : 346px)
+{
+	header .container #img-text h4 {
+		margin-left: 5px;
+	}
+}
 /******************** What is IDD ************************/
 
 #what-is-idd h2 {
@@ -227,8 +275,10 @@ and (max-width : 550px)
 }
 
 #what-is-idd p.high-emphasis {
-	font-size: 1.4em;
-	line-height: 1.6em;
+	font-size: 1.45em;
+	line-height: 1.5em;
+	font-weight: 300;
+	
 }
 
 #what-is-idd p.med-emphasis {
@@ -250,13 +300,17 @@ and (max-width : 550px)
 }
 
 /************************** Classes **************************/
+#classes h2 {
+	padding-left: 0;
+}
+
 #classes li {
 	list-style: none;
 }
 
 .svg-container {
 	float: left;
-	width: 10%;
+	width: 10.1%;
 	overflow: hidden;
 	margin-left: -15px;
 }
@@ -384,10 +438,14 @@ and (max-width : 550px)
 	color: #fff;
 	width: 0px;
 	text-transform: uppercase;
-	transition: width .1s;
-	-webkit-transition: width .1s; /* Safari */
+	transition: width 1s;
+	-webkit-transition: width 1s; /* Safari */
 	white-space: nowrap;
 	font-weight: 300;
+}
+
+#jobs i {
+	font-style:normal;
 }
 
 #jobs ul.chart-box li span {
@@ -395,6 +453,24 @@ and (max-width : 550px)
 	margin-left: 9px;
 	border-left: #fff 2px solid;
 	font-weight: 400;
+}
+
+@media only screen and (max-width : 600px)
+ { 
+ #jobs i {
+	display: none;
+}
+}
+
+@media only screen and (max-width : 470px)
+ { 
+ 
+#jobs ul.chart-box li span {
+	display: block;
+	border-left: none;
+	padding-left: 0;
+	margin-left: 0;
+}
 }
 
 #jobs h3 span {
@@ -452,6 +528,7 @@ and (max-width : 550px)
 
 #learn article ul {
 	list-style: none;
+	padding-left: 0;
 }
 
 #learn article ul li {
@@ -492,7 +569,6 @@ and (max-width : 550px)
 }
 
 #learn p {
-	font-size: 14px;
 	line-height: 1.2em;
 	margin-bottom: 20px;
 }

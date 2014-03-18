@@ -1,17 +1,35 @@
 
+$(document).ready(function(){
+	$('.heading').fitText();
+	$('header .container #img-text h3').fitText();
+	$('header .container #img-text h4').fitText( 1.5, {maxFontSize: '15px'});
+	$('header .container #img-text h1').css('letter-spacing', '12px');
+	$('header .container #img-text h3').css('letter-spacing', '13px');
+});
 
-$(function() {
-	
+var has_graph_been_reached = false;
+$(document).ready(function() {
+	controller = new ScrollMagic();
 	$( window ).resize(function() {
+		if (has_graph_been_reached) {load_chart();}
+	});
+
+
+	// build scene
+	var scene = new ScrollScene({triggerElement: "#jobs", duration: 200})
+					.addTo(new ScrollMagic());
+	scene.on("enter leave", function (e) {
+		
 		load_chart();
 	});
 
-	load_chart();
 });
+
 
 
 function load_chart() {
 	$("#jobs ul.chart-box li").each(function(){
+		has_graph_been_reached = true;
 		var view_width = $("#jobs-chart").width();
 		var amount = $(this).find("span").text().replace("$","").replace(",","");
 		var new_size = ((amount * view_width) / 80000) - 30;
