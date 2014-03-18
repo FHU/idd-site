@@ -57,8 +57,8 @@
 	  <div id="navBorder">
 	    <div class="container">
 	      <nav id="mainNav" class="row"> 
-		<ul class="col-xs-12">
-			<li class="col-xs-6 col-sm-2"> <a href="#what-is-idd" > What Is <span class="whiteNavText">I.D.D.</span></a> </li>
+		<ul class="col-xs-12" id="navigation-scrollspy">
+			<li class="col-xs-6 col-sm-2 active"> <a href="#what-is-idd" > What Is <span class="whiteNavText">I.D.D.</span></a> </li>
 			<li class="col-xs-6 col-sm-2"> <a href="#create" > What will I <span class="whiteNavText">Create</span></a> </li>
 			<li class="col-xs-6 col-sm-2"> <a href="#classes" > How Are <span class="whiteNavText">Classes</span> </a> </li>
 			<li class="col-xs-6 col-sm-2"> <a href="#jobs" > Learn About <span class="whiteNavText">Jobs</span> </a> </li>
@@ -180,6 +180,22 @@
 			
 		
 		  <h3>Application Design And Development</h3>
+<<<<<<< HEAD
+			<div class="row">
+                              <img src="images/phone1.png" class="col-sm-4 col-xs-8" alt="Design on Phone">
+                              <img src="images/phone2.png" class="col-sm-4 col-xs-8" alt="Design on Phone">
+                              <img src="images/phone3.png" class="col-sm-4 col-xs-8" alt="Design on Phone">
+			</div>
+			<div class="row">
+			      <img src="images/phone4.png" class="col-sm-4 col-xs-8" alt="Design on Phone">
+                              <img src="images/phone5.png" class="col-sm-4 col-xs-8" alt="Design on Phone">
+                              <img src="images/phone6.png" class="col-sm-4 col-xs-8" alt="Design on Phone">
+			</div>
+			
+			
+			
+			
+=======
 		  
 			<div id="this-carousel-id3" class="carousel slide">
                             <!-- class of slide for animation -->
@@ -212,6 +228,7 @@
                         </div>		  
 		  
 		
+>>>>>>> FETCH_HEAD
 		</article>
 
                 
@@ -221,13 +238,12 @@
         </section>
 
         <section id="classes">
-            <article id="core-classes-container" class="row">
+            <div class="row">
                 <h2 class="title-basics col-md-3 col-sm-12 col-xs-12 col-lg-3">About the <strong><br/>Classes</strong></h2>
-                <div class="col-md-8">
-                    <div id="core-classes-svg-container-1">
-                        <svg id="core-classes-svg-1"></svg>
-                    </div>
-                    <div id="core-classes-1">
+                <article id="core-classes" class="col-md-8">
+
+                    <svg id="core-classes-svg-1" class="svg-container"></svg>
+                    <div class="classes-container">
                         <h3>Core Classes</h3>
                         <h4>8 Total Classes</h4>
                         <ul class="core-classes-offset">
@@ -242,10 +258,9 @@
                             </div>
                         </ul>
                     </div>
-                    <div id="core-classes-svg-container-2">
-                        <svg id="core-classes-svg-2"></svg>
-                    </div>
-                    <div id="core-classes-2">
+
+                    <svg id="core-classes-svg-2" class="svg-container"></svg>
+                    <div class="classes-container">
                         <ul class="core-classes-offset">
                             <li>Computer Programming II</li>
                             <li>2-D Design</li>
@@ -255,18 +270,18 @@
                             <p>Students will become familiar with each program’s interface and capabilities through lectures, demonstrations, and projects.</p>
                         </ul>
                     </div>
-                    <div id="core-classes-svg-container-3">
-                        <svg id="core-classes-svg-3"></svg>
-                    </div>
-                    <div id="core-classes-3">
+                    
+                    <svg id="core-classes-svg-3" class="svg-container"></svg>
+                    <div class="classes-container">
                         <ul class="core-classes-offset">
                             <li>3-D Design</li>
                             <li>Upper Division Electives (ART or CIS) (e.g. internship)</li>
                             <li>Capstone Project</li>
                         </ul>
                     </div>
-                </div>
-            </article>
+
+                </article>
+            </div>
 
             <div class="row">
                 <div class="col-md-10 col-md-offset-3">
@@ -274,15 +289,16 @@
                     <svg id="connector-svg-2"></svg>
                     <svg id="connector-svg-3"></svg>
                     <svg id="connector-svg-4"></svg>
+                    <svg id="mobile-connect-svg-1"></svg>
+                    <svg id="mobile-connect-svg-2"></svg>
                 </div>
             </div>
 
             <div class="row">
-                <article id="dev-track-container" class="col-md-4 col-md-offset-3">
-                    <div id="dev-track-svg-container-1">
-                        <svg id="dev-track-svg-1"></svg>
-                    </div>
-                    <div id="dev-track-1">
+                <article id="dev-track" class="col-md-4 col-md-offset-3">
+
+                    <svg id="dev-track-svg-1" class="svg-container"></svg>
+                    <div class="classes-container">
                         <h3>Developer Track (B.S.)</h3>
                         <ul class="track-classes-offset">
                             <li>Visual Application Programming</li>
@@ -292,10 +308,8 @@
                         </ul>
                     </div>
 
-                    <div id="dev-track-svg-container-2">
-                        <svg id="dev-track-svg-2"></svg>
-                    </div>
-                    <div id="dev-track-2">
+                    <svg id="dev-track-svg-2" class="svg-container"></svg>
+                    <div class="classes-container">
                         <ul class="track-classes-offset">
                             <li>Human-Computer Interaction</li>
                             <li>Database Systems</li>
@@ -303,17 +317,17 @@
                             <p>In this class students will learn how to design and develop applications for mobile devices.  The course will focus on the real-world experience of developing beautiful and usable apps for iOS, Android, and Web platforms. </p>
                         </ul>
                     </div>
+
                 </article>
 
                 <div id="end-dev-svg-container" class="col-md-1">
                     <svg id="end-dev-svg"></svg>
                 </div>
                 
-                <article id="design-track-container" class="col-md-4 col-md-offset-1">
-                    <div id="design-track-svg-container-1">
-                        <svg id="design-track-svg-1"></svg>
-                    </div>
-                    <div id="design-track-1">
+                <article id="design-track" class="col-md-4">
+
+                    <svg id="design-track-svg-1" class="svg-container"></svg>
+                    <div class="classes-container">
                         <h3>Designer Track (B.A.)</h4>
                         <ul class="track-classes-offset">
                             <li>Graphic Design I</li>
@@ -324,15 +338,14 @@
                         </ul>
                     </div>
 
-                    <div id="design-track-svg-container-2">
-                        <svg id="design-track-svg-2"></svg>
-                    </div>
-                    <div id="design-track-2">
+                    <svg id="design-track-svg-2" class="svg-container"></svg>
+                    <div class="classes-container">
                         <ul class="track-classes-offset">
                             <li>Readings in Art History</li>
                             <li>Upper Division Elective (CIS or ART)</li>
                         </ul>
                     </div>
+
                 </article>
             </div>
 
