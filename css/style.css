@@ -300,6 +300,10 @@ and (max-width : 346px)
 }
 
 /************************** Classes **************************/
+#classes h2 {
+	padding-left: 0;
+}
+
 #classes li {
 	list-style: none;
 }
