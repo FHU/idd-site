@@ -34,7 +34,6 @@ section {
 #learn:before, #classes:before {
 	content:"";
     display:block!important; /*always applied*/
-    background:#e1e1e1;
     border-bottom: 2px solid #fff;
     opacity:0.75;
     height:100%;
