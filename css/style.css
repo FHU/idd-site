@@ -445,6 +445,10 @@ and (max-width : 346px)
 	font-weight: 300;
 }
 
+#jobs i {
+	font-style:normal;
+}
+
 #jobs ul.chart-box li span {
 	padding-left: 9px;
 	margin-left: 9px;
@@ -452,17 +456,25 @@ and (max-width : 346px)
 	font-weight: 400;
 }
 
+@media only screen and (max-width : 700px)
+ { 
+#jobs i {
+	display: none;
+}
+}
+
 @media only screen and (max-width : 500px)
  { 
- #jobs ul.chart-box li {
-	padding: 7px 7px;
-	margin: 8px 0;
-	font-size: 12px;
-}
  
-	#jobs ul.chart-box li span {
-	color: #000000;
-	right: -300px;
+ 
+ #jobs ul.chart-box li {
+ 
+ }
+#jobs ul.chart-box li span {
+	display: block;
+	border-left: none;
+	padding-left: 0;
+	margin-left: 0;
 }
 }
 
