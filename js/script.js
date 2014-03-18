@@ -133,7 +133,8 @@ design_lines_1.attr({ stroke: "#000", strokeWidth: .5 });
 design_lines_2.attr({ stroke: "#000", strokeWidth: .5 });
 
 //design points
-var design_dots_1 = design1.group( design1.circle(26, 67, 5), design1.circle(26, 89, 5), design1.circle(26, 111, 5), design1.circle(26, 33, 7));
+var design_head = design1.circle(26, 33, 7).attr({ fill: "#67c4ef"});
+var design_dots_1 = design1.group( design1.circle(26, 67, 5), design1.circle(26, 89, 5), design1.circle(26, 111, 5));
 var design_dots_2 = design2.group( design2.circle(26, 12, 5), design2.circle(26, 34, 5));
 
 design_dots_1.attr({fill: "#f7c665"});
