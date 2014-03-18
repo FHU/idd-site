@@ -309,7 +309,7 @@ and (max-width : 346px)
 
 .svg-container {
 	float: left;
-	width: 10.1%;
+	width: 10%;
 	overflow: hidden;
 	margin-left: -15px;
 }
