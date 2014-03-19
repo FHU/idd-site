@@ -308,6 +308,13 @@ and (max-width : 346px)
 }
 
 /************************** Classes **************************/
+#classes .paint {
+	position: absolute;
+	top: 89px;
+	left: -294px;
+	z-index: -1;
+}
+
 #classes h2 {
 	padding-left: 0;
 }
