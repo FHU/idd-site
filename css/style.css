@@ -438,6 +438,14 @@ and (max-width : 346px)
 	padding-left: 0px;
 }
 
+#classes article h3 {
+	text-transform: uppercase;
+}
+
+#classes h3 {
+	text-transform: lowercase;
+}
+
 
 /********************* Jobs ****************************/
 
