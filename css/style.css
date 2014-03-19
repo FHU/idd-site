@@ -464,6 +464,13 @@ and (max-width : 346px)
 
 /********************* Jobs ****************************/
 
+#jobs .paint {
+	position: absolute;
+	top: 4442px;
+	right: -130px;
+	z-index: -1;
+}
+
 #jobs ul.chart-box {
 	border-left: #a6cd66 1px solid;
 	border-bottom: #a6cd66 1px solid;
