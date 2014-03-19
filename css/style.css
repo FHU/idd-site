@@ -215,6 +215,7 @@ header {
 header .container {
 	position: relative;
 	min-height: 200px;
+	width: 100%; /*Changed by Joey. Nothing was here before */
 }
 header .container img {
 	width: 100%;
