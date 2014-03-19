@@ -295,8 +295,14 @@ and (max-width : 346px)
 
 
 #create{
-	background: url('../images/IDDBG_3Create-23.png') -100px -30px no-repeat;
-	
+	position: relative;
+}
+
+#create .paint {
+	position: absolute;
+	top:-110px;
+	left:-180px;
+	z-index: -1000;
 }
 
 /************************** Classes **************************/
