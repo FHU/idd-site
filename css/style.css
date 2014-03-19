@@ -318,7 +318,7 @@ and (max-width : 346px)
 	float: left;
 	width: 10%;
 	overflow: hidden;
-	margin-left: -15px;
+	margin-left: 0px;
 }
 
 .classes-container {
@@ -327,7 +327,7 @@ and (max-width : 346px)
 }
 
 #connector-svg-1 {
-	margin-left: -15px;
+	margin-left: 0px;
 }
 
 #connector-svg-1,
@@ -339,7 +339,7 @@ and (max-width : 346px)
 	float: left;
 	height: 40px;
 	width: 100%;
-	margin-left: -15px;
+	margin-left: 0px;
 }
 
 #end-dev-svg-1,
@@ -361,6 +361,16 @@ and (max-width : 346px)
 	display: none;
 }
 
+@media screen and (max-width: 320px) {
+	.svg-container {
+		width: 15%;
+	}
+
+	.classes-container {
+		width: 85%;
+	}
+}
+
 @media screen and (max-width: 768px) {
 	.svg-container
 	#end-dev-svg,
@@ -373,7 +383,8 @@ and (max-width : 346px)
 }
 
 @media (max-width: 992px){
-	#classes .row div {
+	#classes .row div,
+	#classes .row article {
 		padding-left: 0px;
 	}
 }
