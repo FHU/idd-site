@@ -609,6 +609,9 @@ and (max-width : 346px)
 	width: 12.5%;
 }
 
+#jobs ul.chart-values li:first-child:after {
+	content: "";
+}
 
 /*********************** Learn ***********************/
 #learn .paint-1 {
