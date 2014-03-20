@@ -683,6 +683,9 @@ and (max-width : 346px)
 	width: 90%;
 }
 
+#apply h2 {
+	letter-spacing: 7px;
+}
 
 #button1 {
 	color: #fff;
