@@ -565,15 +565,19 @@ and (max-width : 346px)
 	border-right: #000 3px solid;
 }
 
-#jobs ul.chart-values {
-	padding: 0 15px 0 15px;
-	width: 117.15%;
-	position: relative;
-}
 
 #jobs > div {
 	overflow: hidden;
 }
+
+#jobs ul.chart-values {
+	padding: 0 0 0 1px;
+	width: 100%;
+	position: relative;
+	top: -1px;
+}
+
+
 
 #jobs ul.chart-values li {
 	
@@ -582,15 +586,15 @@ and (max-width : 346px)
 	display: block;
 	float: left;
 	position: relative;
-	left: -5.555555%;
-	width: 11.11111%;
+	width: 12.5%;
+	left: 6.25%;
 	text-align: center;
 }
 
 #jobs ul.chart-values li:after {
 	content: " ";
 	width: 1px;
-	height: 5px;
+	height: 6px;
 	display: block;
 	position: absolute;
 	left: 50%;
@@ -599,11 +603,10 @@ and (max-width : 346px)
 }
 
 #jobs ul.chart-values li:first-child {
-	left: -5.45%;
-}
-
-#jobs ul.chart-values li:last-child {
-	margin-right: 0%;
+	position: absolute;
+	left: -6.25%;
+	top: 0;
+	width: 12.5%;
 }
 
 
