@@ -303,7 +303,9 @@ and (max-width : 346px)
 	padding-top: 20px;
 }
 
-
+#create h2 {
+	letter-spacing: 10px;
+}
 
 #create{
 	position: relative;
