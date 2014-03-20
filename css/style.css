@@ -490,6 +490,9 @@ and (max-width : 346px)
 
 /********************* Jobs ****************************/
 
+#jobs div {
+	position: relative;
+}
 
 #jobs h2 {
 	letter-spacing: 7px;
@@ -497,7 +500,7 @@ and (max-width : 346px)
 
 #jobs .paint {
 	position: absolute;
-	top: 4682px;
+	top: -150px;
 	right: -130px;
 	z-index: -1;
 }
@@ -568,9 +571,6 @@ and (max-width : 346px)
 }
 
 
-#jobs > div {
-	overflow: hidden;
-}
 
 #jobs ul.chart-values {
 	padding: 5px 0 0 1px;
