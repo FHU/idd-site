@@ -47,25 +47,37 @@ $(window).load( function() {
 
 
 
+
 $(window).resize( function() {
 	fix_svg_height();
 });
 
 function fix_svg_height() {
-	$("#core-classes .svg-container:nth-child(1)").css({"height": $("#core-classes .classes-container:nth-child(2)").height()});
-	$("#core-classes .svg-container:nth-child(3)").css({"height": $("#core-classes .classes-container:nth-child(4)").height()});
-	$("#core-classes .svg-container:nth-child(5)").css({"height": $("#core-classes .classes-container:nth-child(6)").height()});
-	$("#dev-track .svg-container:nth-child(1)").css({"height": $("#dev-track .classes-container:nth-child(2)").height()});
-	$("#dev-track .svg-container:nth-child(3)").css({"height": $("#dev-track .classes-container:nth-child(4)").height()});
-	$("#design-track .svg-container:nth-child(1)").css({"height": $("#design-track .classes-container:nth-child(2)").height()});
+	if (typeof InstallTrigger !== 'undefined') {
+		$("#core-classes .svg-container:nth-child(1)").css({"height": $("#core-classes .classes-container:nth-child(2)").height() - 1 });
+		$("#core-classes .svg-container:nth-child(3)").css({"height": $("#core-classes .classes-container:nth-child(4)").height() - 1 });
+		$("#core-classes .svg-container:nth-child(5)").css({"height": $("#core-classes .classes-container:nth-child(6)").height() - 1 });
+		$("#dev-track .svg-container:nth-child(1)").css({"height": $("#dev-track .classes-container:nth-child(2)").height() - 1 });
+		$("#dev-track .svg-container:nth-child(3)").css({"height": $("#dev-track .classes-container:nth-child(4)").height() - 1 });
+		$("#design-track .svg-container:nth-child(1)").css({"height": $("#design-track .classes-container:nth-child(2)").height() - 1 });
 
-	if ( $(window).width() >= 992) {
-		$("#design-track .classes-container:nth-child(4)").css({"height": $("#dev-track").height() - $("#design-track .classes-container:nth-child(2)").height() })
+		if ( $(window).width() >= 992) {
+			$("#design-track .classes-container:nth-child(4)").css({"height": $("#dev-track").height() - $("#design-track .classes-container:nth-child(2)").height() - 1 })
+		}
+		$("#design-track .svg-container:nth-child(3)").css({"height": $("#design-track .classes-container:nth-child(4)").height() - 1 });
+	} else {
+		$("#core-classes .svg-container:nth-child(1)").css({"height": $("#core-classes .classes-container:nth-child(2)").height() });
+		$("#core-classes .svg-container:nth-child(3)").css({"height": $("#core-classes .classes-container:nth-child(4)").height() });
+		$("#core-classes .svg-container:nth-child(5)").css({"height": $("#core-classes .classes-container:nth-child(6)").height() });
+		$("#dev-track .svg-container:nth-child(1)").css({"height": $("#dev-track .classes-container:nth-child(2)").height() });
+		$("#dev-track .svg-container:nth-child(3)").css({"height": $("#dev-track .classes-container:nth-child(4)").height() });
+		$("#design-track .svg-container:nth-child(1)").css({"height": $("#design-track .classes-container:nth-child(2)").height() });
 
-
-	}
-	
-	$("#design-track .svg-container:nth-child(3)").css({"height": $("#design-track .classes-container:nth-child(4)").height()});
+		if ( $(window).width() >= 992) {
+			$("#design-track .classes-container:nth-child(4)").css({"height": $("#dev-track").height() - $("#design-track .classes-container:nth-child(2)").height() })
+		}
+		$("#design-track .svg-container:nth-child(3)").css({"height": $("#design-track .classes-container:nth-child(4)").height() });
+	} 
 }
 
 /**** core classes svg's **************************/
@@ -126,7 +138,7 @@ var design1 = Snap("#design-track-svg-1");
 var design2 = Snap("#design-track-svg-2");
 
 //degin lines
-var design_lines_1 = design1.group( design1.line(26, 33, 0, 33), design1.line(1, 33, 0, 1000), design1.line(1, 67, 26, 67), design1.line(1, 89, 26, 89), design1.line(1, 111, 26, 111));
+var design_lines_1 = design1.group( design1.line(26, 33, 1, 33), design1.line(1, 33, 1, 1000), design1.line(1, 67, 26, 67), design1.line(1, 89, 26, 89), design1.line(1, 111, 26, 111));
 var design_lines_2 = design2.group( design2.line(1, 0, 1, 600), design2.line(1, 12, 26, 12), design2.line(1, 34, 26, 34));
 
 design_lines_1.attr({ stroke: "#000", strokeWidth: .5 });
