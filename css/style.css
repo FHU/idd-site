@@ -660,6 +660,13 @@ and (max-width : 346px)
 
 /************************ Apply ************************/
 
+#apply .paint {
+	position: absolute;
+	bottom: -199px;
+	left: -509px;
+	z-index: -1;
+}
+
 #apply p {
 	width: 90%;
 }
