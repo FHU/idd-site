@@ -586,6 +586,12 @@ and (max-width : 346px)
 	z-index: -1;
 }
 
+#learn .paint-2 {
+	position: absolute;
+	right: -325px;
+	bottom: 289px;
+	z-index: -1;
+}
 
 #learn h2 {
 	letter-spacing: 7px;
