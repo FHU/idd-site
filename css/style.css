@@ -300,10 +300,6 @@ and (max-width : 346px)
 }
 
 /************************** Classes **************************/
-#classes h2 {
-	padding-left: 0;
-}
-
 #classes li {
 	list-style: none;
 }
@@ -376,11 +372,9 @@ and (max-width : 346px)
 	}
 }
 
-@media (max-width: 992px){
-	#classes .row div,
-	#classes .row article {
-		padding-left: 0px;
-	}
+#classes .row div,
+#classes .row article {
+	padding-left: 0px;
 }
 
 @media (min-width: 992px){

@@ -47,25 +47,26 @@ $(window).load( function() {
 
 
 
+
 $(window).resize( function() {
 	fix_svg_height();
 });
 
 function fix_svg_height() {
-	$("#core-classes .svg-container:nth-child(1)").css({"height": $("#core-classes .classes-container:nth-child(2)").height()});
-	$("#core-classes .svg-container:nth-child(3)").css({"height": $("#core-classes .classes-container:nth-child(4)").height()});
-	$("#core-classes .svg-container:nth-child(5)").css({"height": $("#core-classes .classes-container:nth-child(6)").height()});
-	$("#dev-track .svg-container:nth-child(1)").css({"height": $("#dev-track .classes-container:nth-child(2)").height()});
-	$("#dev-track .svg-container:nth-child(3)").css({"height": $("#dev-track .classes-container:nth-child(4)").height()});
-	$("#design-track .svg-container:nth-child(1)").css({"height": $("#design-track .classes-container:nth-child(2)").height()});
+	$("#core-classes .svg-container:nth-child(1)").css({"height": $("#core-classes .classes-container:nth-child(2)").height() - 1 });
+	$("#core-classes .svg-container:nth-child(3)").css({"height": $("#core-classes .classes-container:nth-child(4)").height() - 1 });
+	$("#core-classes .svg-container:nth-child(5)").css({"height": $("#core-classes .classes-container:nth-child(6)").height() - 1 });
+	$("#dev-track .svg-container:nth-child(1)").css({"height": $("#dev-track .classes-container:nth-child(2)").height() - 1 });
+	$("#dev-track .svg-container:nth-child(3)").css({"height": $("#dev-track .classes-container:nth-child(4)").height() - 1 });
+	$("#design-track .svg-container:nth-child(1)").css({"height": $("#design-track .classes-container:nth-child(2)").height() - 1 });
 
 	if ( $(window).width() >= 992) {
-		$("#design-track .classes-container:nth-child(4)").css({"height": $("#dev-track").height() - $("#design-track .classes-container:nth-child(2)").height() })
+		$("#design-track .classes-container:nth-child(4)").css({"height": $("#dev-track").height() - $("#design-track .classes-container:nth-child(2)").height() - 1 })
 
 
 	}
 	
-	$("#design-track .svg-container:nth-child(3)").css({"height": $("#design-track .classes-container:nth-child(4)").height()});
+	$("#design-track .svg-container:nth-child(3)").css({"height": $("#design-track .classes-container:nth-child(4)").height() - 1 });
 }
 
 /**** core classes svg's **************************/
