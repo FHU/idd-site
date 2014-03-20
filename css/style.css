@@ -328,6 +328,7 @@ and (max-width : 346px)
 
 #classes h2 {
 	padding-left: 0;
+	letter-spacing: 10px;
 }
 
 #classes li {
