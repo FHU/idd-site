@@ -326,8 +326,8 @@ and (max-width : 346px)
 
 #what-is-idd .paint {
 	position: absolute;
-	top: 30px;
-	right: -150px;
+	top: -260px;
+	right: -318px;
 	z-index: -1;
 }
 
