@@ -277,9 +277,17 @@ and (max-width : 346px)
 
 #what-is-idd .paint {
 	position: absolute;
-	top: 375px;
-	right: -85px;
+	top: 86%;
+	right: -8%;
 	z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+	#what-is-idd .paint {
+		top: 56%;
+		right: -17%;
+	}
+
 }
 
 #what-is-idd p.high-emphasis {
