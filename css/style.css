@@ -611,6 +611,8 @@ and (max-width : 346px)
 
 #jobs ul.chart-values li:first-child:after {
 	content: "";
+	background: #ff0000;
+	display: none;
 }
 
 /*********************** Learn ***********************/
