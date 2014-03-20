@@ -23,6 +23,7 @@ h1, h2 {
 section {
 	padding-top: 2em;
 	padding-bottom: 13em;
+	position: relative;
 }
 
 /************ Section Background Styles ***************/ 
@@ -325,8 +326,8 @@ and (max-width : 346px)
 
 #what-is-idd .paint {
 	position: absolute;
-	top: 375px;
-	right: -85px;
+	top: 30px;
+	right: -150px;
 	z-index: -1;
 }
 
