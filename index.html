@@ -56,8 +56,11 @@
 	  <div id="anotherContainer">
 	  <div id="navBorder">
 	    <div class="container">
-	      <nav id="mainNav" class="row"> 
-		<ul class="col-xs-12" id="navigation-scrollspy">
+	      <nav id="mainNav" class="row row-offcanvas row-offcanvas-left">
+		<p class="pull-left visible-xs">
+		  <button class="btn btn primary btn-xl" data-toggle="offcanvas" type="button">≣</button>
+		</p>
+		<ul class="col-xs-12 sidebar-offcanvas" role="navigation" id="navigation-scrollspy">
 			<li class="col-xs-6 col-sm-2 active"> <a href="#what-is-idd" > What Is <span class="whiteNavText">I.D.D.</span></a> </li>
 			<li class="col-xs-6 col-sm-2"> <a href="#create" > What will I <span class="whiteNavText">Create</span></a> </li>
 			<li class="col-xs-6 col-sm-2"> <a href="#classes" > How Are <span class="whiteNavText">Classes</span> </a> </li>
@@ -536,5 +539,6 @@
     <script src="js/stickyNav.js"></script>
     <script type="text/javascript" src="js/jquery.fittext.js"></script>
     <script src="js/scrollNav.js"></script>
+    <script src="js/offcanvas.js"></script>
   </body>
 </html>
