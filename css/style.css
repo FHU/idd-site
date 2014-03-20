@@ -22,7 +22,7 @@ h1, h2 {
 
 section {
 	padding-top: 2em;
-	padding-bottom: 7em;
+	padding-bottom: 13em;
 }
 
 /************ Section Background Styles ***************/ 
@@ -427,7 +427,7 @@ and (max-width : 346px)
 		display: block;
 		float: left;
 		height: 80px;
-		width: 25%;
+		width: 19%;
 	}
 
 	#end-dev-svg-container,
