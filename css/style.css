@@ -725,9 +725,16 @@ and (max-width : 346px)
 
 #apply .paint {
 	position: absolute;
-	bottom: -296px;
-	left: -509px;
+	bottom: -66%;
+	left: -58%;
 	z-index: -1;
+}
+
+@media and screen (max-width: 768px) {
+	#apply .paint {
+		bottom: -60%;
+		left: -30%;
+	}
 }
 
 #apply p {
