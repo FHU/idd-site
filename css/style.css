@@ -579,9 +579,13 @@ and (max-width : 346px)
 
 
 /*********************** Learn ***********************/
-#learn {
-	background: url('../images/IDDBG_6Learn-26.png') left center no-repeat;
+#learn .paint-1 {
+	position: absolute;
+	left: -500px;
+	bottom: 1135px;
+	z-index: -1;
 }
+
 
 #learn h2 {
 	letter-spacing: 7px;
