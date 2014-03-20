@@ -318,7 +318,7 @@ and (max-width : 346px)
 	z-index: -1;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 550px) {
 	#create .paint {
 		top: 0;
 		left: -21%;
