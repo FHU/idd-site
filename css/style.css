@@ -892,20 +892,25 @@ and (max-width : 346px)
 }
 
 #questions p{
+	margin-top: 15px;
 	font-size: 14px;
 	text-align: center;
 }
 
 #contact-box {
+	margin-left: 75px;
 }
 
 #contacts span{
 	
 	font-size: 14px;
 	display: block;
+	text-align: center;
+	
 }
 
 .contact-name {
+	
 }
 
 
