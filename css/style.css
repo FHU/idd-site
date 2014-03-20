@@ -497,9 +497,16 @@ and (max-width : 346px)
 
 #jobs .paint {
 	position: absolute;
-	top: 4682px;
-	right: -130px;
+	top: 1065%;
+	right: -12%;
 	z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+	#jobs .paint {
+		top: 592%;
+		right: -17%;
+	}
 }
 
 #jobs ul.chart-box {
