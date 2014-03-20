@@ -231,7 +231,6 @@ header .container #img-text {
 	position:absolute;
 	bottom:30px;
 	right:30px;
-	min-height: 200px;
 	width: 50%;
 }
 
@@ -294,15 +293,14 @@ and (max-width : 550px)
 	}
 	
 	header .container #img-text {
-		top:0;
-		text-align: center;
-		width: auto;
+		width:100%;
+		right:0;
 	}
-	
+	/*
 	header .container #img-text .heading {
 		margin: 15px;
 		display: inline-block;
-	}
+	}*/
 	
 }
 
