@@ -640,6 +640,10 @@ and (max-width : 346px)
 	margin-top: 5px;
 }
 
+#learn #line a {
+	margin-top: 20px;
+}
+
 #learn ul li ul {
 	list-style: none;
 }
