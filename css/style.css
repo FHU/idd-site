@@ -406,6 +406,10 @@ and (max-width : 346px)
 	list-style: none;
 }
 
+#classes .svg-container svg {
+	min-height: 600px;
+}
+
 .svg-container {
 	float: left;
 	width: 10%;
