@@ -490,11 +490,7 @@ and (max-width : 346px)
 
 /********************* Jobs ****************************/
 
-#jobs {
-	background: url("../images/IDD_paint_3.png");
-	background-repeat: no-repeat;
-	background-position:right top; 
-}
+
 #jobs h2 {
 	letter-spacing: 7px;
 }
