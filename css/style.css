@@ -800,42 +800,100 @@ and (max-width : 346px)
 	width: 90%;
 }
 
+
+#apply a:hover {
+	text-decoration: none;
+}
+
 #apply h2 {
 	letter-spacing: 7px;
 }
 
-#button1 {
+.button-general {
 	color: #fff;
 	display: block;
-	width: 25%;
-	margin: 15px;
-	margin-top: 25px;
-	background: #eebc59;
+	margin: 15px auto;
 	border-radius: 0px 0px 0px;
+	width: 35%;
+}
+
+.button-general:hover {
+	color: #fff;
+}
+
+#button1 {
+	margin-top: 25px;
+	background-color: #f8cb75;
+	
+}
+
+#button1:hover {
+	border: solid #000 1.5px;
+	background-color: #f8cb00;
+	transition: border 1s, background-color 1s;
+	-webkit-transition: border 1s, background-color 1s; 
+	
+}
+
+#button2 {
+	background-color: #76cff1;
 }
 
 
-#button2 {
-	color: #fff;
-	display: block;
-	width: 40%;
-	margin: 15px;
-	background: #42c7f2;
-	border-radius: 0px 0px 0px;
+#button2:hover {
+	border: solid #000 1.5px;
+	background-color: #00cff1;
+	transition: border 2s, background-color 2s;
+	-webkit-transition: border 2s, background-color 2s; 
 }
 
 
 #button3 {
-	color: #fff;
-	display: block;
-	width: 40%;
-	margin: 15px;
-	background: #9dc855;
-	border-radius: 0px 0px 0px;
+	background-color: #a7cc6c;
+}
+
+
+#button3:hover {
+	border: solid #000 1.5px;
+	background-color: #8dbc41;
+	transition: border 2s, background-color 2s;
+	-webkit-transition: border 2s, background-color 2s; 
+}
+
+
+@media (max-width: 768px) {
+
+	#apply p {
+		width: 100%;
+	}
+	
+	
+	.button-general {
+		margin: 0px;
+		margin-bottom: 15px;
+	}
+	
+	#button1 {
+		width: 100%;
+	}
+	
+	#button2 {
+		width: 100%;
+	}
+	
+	#button3 {
+		width: 100%;
+	}
+	
+	
 }
 
 #questions {
 	font-size: 14px;
+	text-align: center;
+}
+
+#contact-box {
 }
 
 #contacts span{
@@ -845,9 +903,10 @@ and (max-width : 346px)
 }
 
 .contact-name {
-	margin-top: 10px;
 }
 
+
+/************************ Footer ************************/
 
 footer {
 	width: 100%;
