@@ -610,16 +610,28 @@ and (max-width : 346px)
 /*********************** Learn ***********************/
 #learn .paint-1 {
 	position: absolute;
-	left: -500px;
-	bottom: 1135px;
+	left: -65%;
+	bottom: 62%;
 	z-index: -1;
 }
 
 #learn .paint-2 {
 	position: absolute;
-	right: -325px;
-	bottom: 289px;
+	right: -42%;
+	bottom: 14%;
 	z-index: -1;
+}
+
+@media only and screen (max-width: 768px) {
+	#learn .paint-1 {
+		left: -30%;
+		bottom: 76%;
+	}
+
+	#learn .paint-2 {
+		left: -26%;
+		bottom: 15%;
+	}
 }
 
 #learn h2 {
