@@ -149,7 +149,8 @@ section h2:after {
 	left: 0;  
 	top: 0;  
 	z-index: 100;  
-	border-top: 0; 
+	border-top: 0;
+	margin-top: -13px;
 }
 
 .whiteNavText{
@@ -309,6 +310,9 @@ and (max-width : 346px)
 {
 	header .container #img-text h4 {
 		margin-left: 5px;
+	}
+	#mainNav{
+		font-size:0.4em;
 	}
 }
 /******************** What is IDD ************************/
