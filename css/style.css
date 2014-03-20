@@ -468,6 +468,10 @@ and (max-width : 346px)
 
 /********************* Jobs ****************************/
 
+#job h2 {
+	letter-spacing: 7px;
+}
+
 #jobs .paint {
 	position: absolute;
 	top: 4682px;
