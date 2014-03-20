@@ -228,8 +228,8 @@ header .container #img-text {
 	text-align:right;
 	z-index:100;
 	position:absolute;
-	bottom:0;
-	right:0;
+	bottom:30px;
+	right:30px;
 	min-height: 200px;
 	width: 50%;
 }
