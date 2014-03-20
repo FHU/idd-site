@@ -336,9 +336,16 @@ and (max-width : 346px)
 /************************** Classes **************************/
 #classes .paint {
 	position: absolute;
-	top: 89px;
-	left: -294px;
+	top: 5%;
+	left: -34%;
 	z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+	#classes .paint {
+		top: -4%;
+		left: -21%;
+	}
 }
 
 #classes h2 {
