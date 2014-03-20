@@ -1,12 +1,14 @@
 /************ Global Styles ***************/ 
 html
 {
-    overflow: visible;
+    overflow-x: hidden;
 }
 
 body {
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
+
+	overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,7 +22,7 @@ h1, h2 {
 
 section {
 	padding-top: 2em;
-	padding-bottom: 7em;
+	padding-bottom: 13em;
 }
 
 /************ Section Background Styles ***************/ 
@@ -46,7 +48,7 @@ section {
 
 
 #learn .title-basics strong, #classes .title-basics strong {
-	color:#222;
+	color:#adadad;
 }
 
 @media screen and (max-width:767px) {
@@ -64,25 +66,26 @@ section {
 }
 
 .title-basics span {
-    color: #e1e1e1;
+    color: #adadad;
     font-size: 38px;
     display: block;
     margin-top: 5px;
     padding: 0;
     font-family: 'Oswald', sans-serif;
     font-weight: bolder;
+    letter-spacing: 0;
 }
 
 .title-basics strong {
 	font-weight: bolder;
-    color: #e1e1e1;
+    color: #adadad;
     font-size: 58px;
     letter-spacing: .07em;
     font-family: 'Oswald', sans-serif;
 }
 
 .create-title strong {
-    color: #e8e8e8;
+    color: #fff;
  }
 
  #what-is-idd .title-basics strong {
@@ -213,6 +216,7 @@ header {
 header .container {
 	position: relative;
 	min-height: 200px;
+	width: 100%; /*Changed by Joey. Nothing was here before */
 }
 header .container img {
 	width: 100%;
@@ -268,6 +272,21 @@ and (max-width : 346px)
 #what-is-idd h2 {
 	border-bottom: #e8e8e8 2px solid;
 	padding-bottom: 30px;
+	letter-spacing: 5px;
+}
+
+#what-is-idd .paint {
+	position: absolute;
+	top: 86%;
+	right: -8%;
+	z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+	#what-is-idd .paint {
+		top: 56%;
+		right: -17%;
+	}
 
 }
 
@@ -292,16 +311,46 @@ and (max-width : 346px)
 	padding-top: 20px;
 }
 
-
+#create h2 {
+	letter-spacing: 10px;
+}
 
 #create{
-	background: url('../images/IDDBG_3Create-23.png') -100px -30px no-repeat;
-	
+	position: relative;
+}
+
+#create .paint {
+	position: absolute;
+	top: -6%;
+	left: -16%;
+	z-index: -1;
+}
+
+@media screen and (max-width: 550px) {
+	#create .paint {
+		top: 0;
+		left: -21%;
+	}
 }
 
 /************************** Classes **************************/
+#classes .paint {
+	position: absolute;
+	top: 5%;
+	left: -26%;
+	z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+	#classes .paint {
+		top: -4%;
+		left: -21%;
+	}
+}
+
 #classes h2 {
 	padding-left: 0;
+	letter-spacing: 10px;
 }
 
 #classes li {
@@ -404,7 +453,7 @@ and (max-width : 346px)
 		display: block;
 		float: left;
 		height: 80px;
-		width: 25%;
+		width: 19%;
 	}
 
 	#end-dev-svg-container,
@@ -430,6 +479,14 @@ and (max-width : 346px)
 	padding-left: 0px;
 }
 
+#classes article h3 {
+	text-transform: uppercase;
+}
+
+#classes h3 {
+	text-transform: lowercase;
+}
+
 
 /********************* Jobs ****************************/
 
@@ -437,7 +494,16 @@ and (max-width : 346px)
 	background: url("../images/IDD_paint_3.png");
 	background-repeat: no-repeat;
 	background-position:right top; 
-	
+}
+#jobs h2 {
+	letter-spacing: 7px;
+}
+
+#jobs .paint {
+	position: absolute;
+	top: 4682px;
+	right: -130px;
+	z-index: -1;
 }
 
 #jobs ul.chart-box {
@@ -539,8 +605,22 @@ and (max-width : 346px)
 
 
 /*********************** Learn ***********************/
-#learn {
-	background: url('../images/IDDBG_6Learn-26.png') left center no-repeat;
+#learn .paint-1 {
+	position: absolute;
+	left: -500px;
+	bottom: 1135px;
+	z-index: -1;
+}
+
+#learn .paint-2 {
+	position: absolute;
+	right: -325px;
+	bottom: 289px;
+	z-index: -1;
+}
+
+#learn h2 {
+	letter-spacing: 7px;
 }
 
 #learn article ul {
@@ -608,6 +688,10 @@ and (max-width : 346px)
 	margin-top: 5px;
 }
 
+#learn #line a {
+	margin-top: 20px;
+}
+
 #learn ul li ul {
 	list-style: none;
 }
@@ -624,10 +708,20 @@ and (max-width : 346px)
 
 /************************ Apply ************************/
 
+#apply .paint {
+	position: absolute;
+	bottom: -296px;
+	left: -509px;
+	z-index: -1;
+}
+
 #apply p {
 	width: 90%;
 }
 
+#apply h2 {
+	letter-spacing: 7px;
+}
 
 #button1 {
 	color: #fff;
