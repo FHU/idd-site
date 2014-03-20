@@ -127,7 +127,7 @@ var design1 = Snap("#design-track-svg-1");
 var design2 = Snap("#design-track-svg-2");
 
 //degin lines
-var design_lines_1 = design1.group( design1.line(26, 33, 0, 33), design1.line(1, 33, 0, 1000), design1.line(1, 67, 26, 67), design1.line(1, 89, 26, 89), design1.line(1, 111, 26, 111));
+var design_lines_1 = design1.group( design1.line(26, 33, 1, 33), design1.line(1, 33, 1, 1000), design1.line(1, 67, 26, 67), design1.line(1, 89, 26, 89), design1.line(1, 111, 26, 111));
 var design_lines_2 = design2.group( design2.line(1, 0, 1, 600), design2.line(1, 12, 26, 12), design2.line(1, 34, 26, 34));
 
 design_lines_1.attr({ stroke: "#000", strokeWidth: .5 });
