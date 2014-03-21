@@ -2,11 +2,10 @@
 $(document).ready(function(){
 	$('.heading').fitText();
 	$('header .container #img-text h3').fitText();
-	$('header .container #img-text h4').fitText( 1.5, {maxFontSize: '15px'});
-	$('header .container #img-text h1').fitText( 1.5, {minFontSize: '40px', maxFontSize:'70px'});
-	$('header .container #img-text h2').fitText( 1.5, {minFontSize: '40px', maxFontSize:'70px'});
+	$('header .container #img-text h4').fitText( 1, {maxFontSize: '15px'});
 	$('header .container #img-text h1').css('letter-spacing', '12px');
 	$('header .container #img-text h3').css('letter-spacing', '13px');
+	$('header .container #img-text h2').css('letter-spacing', '7px');
 });
 
 $(document).ready(function() {

@@ -286,7 +286,21 @@ header .container #img-text .heading {
     width: 100%; /* 12 columns */
   }
 }
-
+@media only screen
+and (max-width : 320px)
+{
+	header .container #img-text {
+		bottom: 0;
+	}
+	
+	header .container #img-text h4{
+		display:none;
+	}
+	
+	header .container #img-text h2{
+		padding-right: 4px;
+	}
+}
 @media only screen 
 and (max-width : 550px)
 {
@@ -295,12 +309,8 @@ and (max-width : 550px)
 	}
 	
 	header .container #img-text {
-		width: auto;
+		width: 90%;
 		right: 0;
-	}
-	
-	header .container #img-text h1, h2 {
-		font-size: 40px;
 	}
 	
 }
