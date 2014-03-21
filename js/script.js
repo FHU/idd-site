@@ -9,7 +9,9 @@ $(document).ready(function(){
 
 $(document).ready(function() {
 
-    $("#learn-notecards").owlCarousel({
+	var owl = $("#learn-notecards");
+
+    owl.owlCarousel({
 
         //navigation : true, // Show next and prev buttons
         slideSpeed : 300,
@@ -23,6 +25,22 @@ $(document).ready(function() {
       // itemsTablet: false,
       // itemsMobile : false
      
+    });
+
+    $(".learn-next").click(function(){
+    	owl.trigger('owl.next');
+    });
+
+    $(".learn-next a").click(function(event) {
+    	event.preventDefault();
+    });
+
+    $(".learn-prev").click(function(){
+    	owl.trigger('owl.prev');
+    });
+
+    $(".learn-prev a").click(function(event) {
+    	event.preventDefault();
     });
 });
 
