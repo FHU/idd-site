@@ -702,14 +702,19 @@ and (max-width : 346px)
 	letter-spacing: 7px;
 }
 
-#learn {
-	
-}
-
 #learn article ul {
 	list-style: none;
 	padding-left: 0;
 	float: left;
+	margin-bottom: 20px;
+}
+
+#learn article ul li {
+	line-height: 1.2em;
+}
+
+#learn #indent {
+	margin-left: 6px;
 }
 
 /*#learn .paint {
@@ -747,10 +752,25 @@ and (max-width : 346px)
 	font-weight: bold;
 }
 
+#learn .twitter {
+	margin-bottom: 20px;
+}
+
+.summary {
+	margin-left: 15px;
+}
+
+#classes {
+	position: relative;
+	top: 36px;
+	left: 20px;
+}
+
 .second-col {
 	position: relative;
 	top: -21px;
 	margin-left: 25px;
+	float: left;
 }
 
 .left-arrow {
