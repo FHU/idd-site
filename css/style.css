@@ -297,9 +297,6 @@ and (max-width : 320px)
 		display:none;
 	}
 	
-	header .container #img-text h2{
-		padding-right: 4px;
-	}
 }
 @media only screen 
 and (max-width : 550px)
