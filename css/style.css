@@ -296,6 +296,7 @@ and (max-width : 550px)
 	
 	header .container #img-text {
 		width: auto;
+		right: 0;
 	}
 	
 	header .container #img-text h1, h2 {
