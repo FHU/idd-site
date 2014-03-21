@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-width=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Interactive Digital Design | FHU </title>
 
     <link rel="shortcut icon" href="favicon.ico" />
@@ -21,11 +21,15 @@
 
     <link rel="stylesheet" href="css/owl.theme.css">
 
-    <!-- Latest compiled and minified CSS -->
-	<!--<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> -->
+    <script src="js/jquery-1.9.1.min.js"></script>
 
-	<!-- Optional theme -->
-	<!--<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"> -->
+    <script src="js/owl.carousel.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <!--<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> -->
+
+    <!-- Optional theme -->
+    <!--<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"> -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,45 +40,47 @@
     
   </head>
   <body>
-    <!-- Commit -->
+    
     <header>
 
-        <!-- Reverted changes -->
-
         <div class="container">
-    	       <img src="images/header/header-img.jpg" class= "col-xs-12" alt="Gannon computer sciencing" />
-	       <div id="img-text">
-		  <h4 class="heading">FREED-HARDEMAN UNIVERSITY</h4>
-		  <h3 class="heading">MAJOR IN</h3>
-		  <h1 class="heading">INTERACTIVE</h1>
-		  <h2 class="heading">DIGITAL DESIGN</h2>
-	       </div>
-	</div>
-	<div id="navBackground">
-	  <div id="anotherContainer">
-	  <div id="navBorder">
-	    <div class="container">
-	      <nav id="mainNav" class="row"> 
-		<ul class="col-xs-12">
-			<li class="col-xs-6 col-sm-2"> <a href="#what-is-idd" > What Is <span class="whiteNavText">I.D.D.</span></a> </li>
-			<li class="col-xs-6 col-sm-2"> <a href="#create" > What will I <span class="whiteNavText">Create</span></a> </li>
-			<li class="col-xs-6 col-sm-2"> <a href="#classes" > How Are <span class="whiteNavText">Classes</span> </a> </li>
-			<li class="col-xs-6 col-sm-2"> <a href="#jobs" > Learn About <span class="whiteNavText">Jobs</span> </a> </li>
-			<li class="col-xs-6 col-sm-2"> <a href="#learn" > Who Helps Me <span class="whiteNavText">Learn</span> </a> </li>
-			<li class="col-xs-6 col-sm-2"> <a href="#apply" > How To <span class="whiteNavText">Apply</span> </a> </li>
-		</ul>
-	      </nav>
-	    </div><!-- end container -->
-	  </div><!-- end navBorder -->
-	  </div><!-- end anotherContainer -->
-	</div><!-- end navBackground -->
+               <img src="images/header/header-img.jpg" class= "col-xs-12" alt="Gannon computer sciencing" />
+           <div id="img-text">
+          <h4 class="heading">FREED-HARDEMAN UNIVERSITY</h4>
+          <h3 class="heading">MAJOR IN</h3>
+          <h1 class="heading">INTERACTIVE</h1>
+          <h2 class="heading">DIGITAL DESIGN</h2>
+           </div>
+    </div>
+    <div id="navBackground">
+      <div id="anotherContainer">
+      <div id="navBorder">
+        <div class="container">
+          <nav id="mainNav" class="row row-offcanvas row-offcanvas-left">
+        <p class="pull-left visible-xs">
+          <button class="btn btn primary btn-xl" data-toggle="offcanvas" type="button">≣</button>
+        </p>
+        <ul class="col-xs-12 sidebar-offcanvas" role="navigation" id="navigation-scrollspy">
+            <li class="col-xs-12 col-sm-2 active"> <a href="#what-is-idd" > What Is <span class="whiteNavText">I.D.D.</span></a> </li>
+            <li class="col-xs-12 col-sm-2"> <a href="#create" > What will I <span class="whiteNavText">Create</span></a> </li>
+            <li class="col-xs-12 col-sm-2"> <a href="#classes" > How Are <span class="whiteNavText">Classes</span> </a> </li>
+            <li class="col-xs-12 col-sm-2"> <a href="#jobs" > Learn About <span class="whiteNavText">Jobs</span> </a> </li>
+            <li class="col-xs-12 col-sm-2"> <a href="#learn" > Who Helps Me <span class="whiteNavText">Learn</span> </a> </li>
+            <li class="col-xs-12 col-sm-2"> <a href="#apply" > How To <span class="whiteNavText">Apply</span> </a> </li>
+        </ul>
+          </nav>
+        </div><!-- end container -->
+      </div><!-- end navBorder -->
+      </div><!-- end anotherContainer -->
+    </div><!-- end navBackground -->
     </header>
 
     <div class="container title-reposition">
 
         <section id="what-is-idd">
             <div class="row">
-                <h2 class="title-basics col-sm-12 col-xs-12 col-lg-3 col-md-3">What is <br/><span>Interactive </span><strong><br/>Digital <br>Design</strong></h2>        
+                <h2 class="title-basics col-sm-12 col-xs-12 col-lg-3 col-md-3">What is <br/><span>Interactive </span><strong><br/>Digital <br>Design</strong></h2>
+                <img src="images/IDD_paint_1.png" class="paint">        
                 <article class="col-md-3"><h3>  Beauty + Function </h3>
                     <p class="high-emphasis">Interactive Digital Design is an interdisciplinary major that combines graphic design and software development. </p>
 
@@ -98,25 +104,26 @@
 
         <section id="create">
 
-    	   <div class="row first-row">
+           <div class="row first-row">
                <h2 class="title-basics col-md-3 col-sm-12 col-xs-12 col-lg-3 create-title">What Will I <strong><br/>Create</strong></h2>
-		
-	  	
-	      <p class="create-info col-md-8">
-	      Real websites, applications, products, posters and more created for real people, by real Freed-Hardman
-	      University students. Our students are given the opportunity to not only learn the technique and skills required
-	      for interactive digital media, but are also able to work on real-life projects and gain experience in carrying out
-	      projects from beginning to end. Below are a few examples of our student work.
-	      </p>
+    
+          <img src="images/IDD_paint_2.png"  class="paint" />   
+        
+          <p class="create-info col-md-8">
+          Real websites, applications, products, posters and more created for real people, by real Freed-Hardeman
+          University students. Our students are given the opportunity to not only learn the technique and skills required
+          for interactive digital media, but are also able to work on real-life projects and gain experience in carrying out
+          projects from beginning to end. Below are a few examples of our student work.
+          </p>
 
-	       
+           
                 <article class="col-md-8">
-		  <h3>Web Design</h3>
-		
-			<div id="this-carousel-id" class="carousel slide">
+          <h3>Web Design</h3>
+        
+            <div id="this-carousel-id" class="carousel slide">
                             <!-- class of slide for animation -->
                             <div class="carousel-inner">
-			      
+                  
                                 <div class="item active">
                                     <!-- class of active since it's the first item -->
                                     <img src="images/cupcakes.png" />
@@ -138,15 +145,15 @@
                             <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
                             <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
                         </div>
-		
-		
-		
-		  <h3>Product Design</h3>
-		  
-			<div id="this-carousel-id2" class="carousel slide">
+        
+        
+        
+          <h3>Product Design</h3>
+          
+            <div id="this-carousel-id2" class="carousel slide">
                             <!-- class of slide for animation -->
                             <div class="carousel-inner">
-			      
+                  
                                 <div class="item active">
                                     <!-- class of active since it's the first item -->
                                     <img src="images/Katie_Benson_FA12_03_GD2.jpg" />
@@ -175,14 +182,13 @@
                             <a class="carousel-control right" href="#this-carousel-id2" data-slide="next">&rsaquo;</a>
                         </div>
                                 
-			
-		
-		  <h3>Application Design And Development</h3>
-		  
-			<div id="this-carousel-id3" class="carousel slide">
+            
+        
+          <h3>Application Design And Development</h3>
+            <div id="this-carousel-id3" class="carousel slide">
                             <!-- class of slide for animation -->
                             <div class="carousel-inner">
-			      
+                  
                                 <div class="item active">
                                     <!-- class of active since it's the first item -->
                                     <img src="images/phone1.png" />
@@ -198,19 +204,18 @@
                                 </div>
                                 <div class="item">
                                     <img src="images/phone5.png" />
-                                </div>				
+                                </div>              
                                 <div class="item">
                                     <img src="images/phone6.png" />                                    
-                                </div>				
+                                </div>              
                             </div><!-- /.carousel-inner -->
                             <!--  Next and Previous controls below
                             href values must reference the id for this carousel -->
                             <a class="carousel-control left" href="#this-carousel-id3" data-slide="prev">&lsaquo;</a>
                             <a class="carousel-control right" href="#this-carousel-id3" data-slide="next">&rsaquo;</a>
-                        </div>		  
-		  
-		
-		</article>
+                        </div>        
+        
+        </article>
 
                 
 
@@ -219,13 +224,15 @@
         </section>
 
         <section id="classes">
-            <article id="core-classes-container" class="row">
+            <div class="row">
                 <h2 class="title-basics col-md-3 col-sm-12 col-xs-12 col-lg-3">About the <strong><br/>Classes</strong></h2>
-                <div class="col-md-8">
-                    <div id="core-classes-svg-container-1">
+                <img src="images/IDD_paint_3.png" class="paint">
+                <article id="core-classes" class="col-md-8">
+
+                    <div class="svg-container">
                         <svg id="core-classes-svg-1"></svg>
                     </div>
-                    <div id="core-classes-1">
+                    <div class="classes-container">
                         <h3>Core Classes</h3>
                         <h4>8 Total Classes</h4>
                         <ul class="core-classes-offset">
@@ -240,10 +247,11 @@
                             </div>
                         </ul>
                     </div>
-                    <div id="core-classes-svg-container-2">
+
+                    <div class="svg-container">
                         <svg id="core-classes-svg-2"></svg>
                     </div>
-                    <div id="core-classes-2">
+                    <div class="classes-container">
                         <ul class="core-classes-offset">
                             <li>Computer Programming II</li>
                             <li>2-D Design</li>
@@ -253,34 +261,39 @@
                             <p>Students will become familiar with each program’s interface and capabilities through lectures, demonstrations, and projects.</p>
                         </ul>
                     </div>
-                    <div id="core-classes-svg-container-3">
+                    
+                    <div class="svg-container">
                         <svg id="core-classes-svg-3"></svg>
                     </div>
-                    <div id="core-classes-3">
+                    <div class="classes-container">
                         <ul class="core-classes-offset">
                             <li>3-D Design</li>
                             <li>Upper Division Electives (ART or CIS) (e.g. internship)</li>
                             <li>Capstone Project</li>
                         </ul>
                     </div>
-                </div>
-            </article>
+
+                </article>
+            </div>
 
             <div class="row">
-                <div class="col-md-10 col-md-offset-3">
+                <div class="col-md-8 col-md-offset-3">
                     <svg id="connector-svg-1"></svg>
                     <svg id="connector-svg-2"></svg>
                     <svg id="connector-svg-3"></svg>
                     <svg id="connector-svg-4"></svg>
+                    <svg id="mobile-connect-svg-1"></svg>
+                    <svg id="mobile-connect-svg-2"></svg>
                 </div>
             </div>
 
             <div class="row">
-                <article id="dev-track-container" class="col-md-4 col-md-offset-3">
-                    <div id="dev-track-svg-container-1">
+                <article id="dev-track" class="col-md-4 col-md-offset-3">
+
+                    <div class="svg-container">
                         <svg id="dev-track-svg-1"></svg>
                     </div>
-                    <div id="dev-track-1">
+                    <div class="classes-container">
                         <h3>Developer Track (B.S.)</h3>
                         <ul class="track-classes-offset">
                             <li>Visual Application Programming</li>
@@ -290,10 +303,10 @@
                         </ul>
                     </div>
 
-                    <div id="dev-track-svg-container-2">
+                    <div class="svg-container">
                         <svg id="dev-track-svg-2"></svg>
                     </div>
-                    <div id="dev-track-2">
+                    <div class="classes-container">
                         <ul class="track-classes-offset">
                             <li>Human-Computer Interaction</li>
                             <li>Database Systems</li>
@@ -301,17 +314,19 @@
                             <p>In this class students will learn how to design and develop applications for mobile devices.  The course will focus on the real-world experience of developing beautiful and usable apps for iOS, Android, and Web platforms. </p>
                         </ul>
                     </div>
+
                 </article>
 
                 <div id="end-dev-svg-container" class="col-md-1">
                     <svg id="end-dev-svg"></svg>
                 </div>
                 
-                <article id="design-track-container" class="col-md-4 col-md-offset-1">
-                    <div id="design-track-svg-container-1">
+                <article id="design-track" class="col-md-4">
+
+                    <div class="svg-container">
                         <svg id="design-track-svg-1"></svg>
                     </div>
-                    <div id="design-track-1">
+                    <div class="classes-container">
                         <h3>Designer Track (B.A.)</h4>
                         <ul class="track-classes-offset">
                             <li>Graphic Design I</li>
@@ -322,15 +337,16 @@
                         </ul>
                     </div>
 
-                    <div id="design-track-svg-container-2">
+                    <div class="svg-container">
                         <svg id="design-track-svg-2"></svg>
                     </div>
-                    <div id="design-track-2">
+                    <div class="classes-container">
                         <ul class="track-classes-offset">
                             <li>Readings in Art History</li>
                             <li>Upper Division Elective (CIS or ART)</li>
                         </ul>
                     </div>
+
                 </article>
             </div>
 
@@ -342,187 +358,132 @@
             </div>
 
             <div class="row">
-                <h3 class="col-xs-5 col-sm-5 col-md-4 col-xs-offset-3 col-sm-offset-3 col-md-offset-5">and all this leads to ...</h3>
+                <h3 class="col-xs-8 col-sm-6 col-md-4 col-xs-offset-2 col-sm-offset-3 col-md-offset-5">and all this leads to ...</h3>
             </div>
         </section>
 
-		<section id="jobs">
-			<div class="row">
-				<h2 class="title-basics col-md-3 col-sm-12 col-xs-12 col-lg-3">What kind of <strong><br/>Jobs</strong><br/> Can I Get</h2>
-			<div class="col-md-8">
-				<p>A degree in Interactive Digital Design prepares you for a
-					range of design and development jobs for both the web and mobile
-					app platforms. </p>
+        <section id="jobs">
+            <div class="row">
+                <h2 class="title-basics col-md-3 col-sm-12 col-xs-12 col-lg-3">What kind of <strong><br/>Jobs</strong><br/> Can I Get</h2>
+                <img src="images/IDD_paint_3.png" class="paint">
+            <div class="col-md-8">
+                <p>A degree in Interactive Digital Design prepares you for a
+                    range of design and development jobs for both the web and mobile
+                    app platforms. </p>
 
                     <p> Students with greater technical inclination will be
-					prepared to get jobs as web developers, mobile app developers, and
-					software developers. Graduates with greater interest in design will
-					be prepared to apply those skills to web and app design in addition
-					to positions like user experience designer and user interface
-					designer.</p>
-				<h3>
-					<span>Job Title</span>Median Salary Range
-				</h3>
-				<h4>Salary data from <a href="http://payscale.com/">payscale.com</a></h4>
-				<ul class="chart-box" id="jobs-chart">
-					<li>Mobile App <i>Designer/</i>Developer<span>$68,111</span></li>
-					<li>Web Designer<span>$42,699</span></li>
-					<li>Web Developer<span>$52,094</span></li>
-					<li>User Experience (UX) Designer<span>$76,365</span></li>
-					<li>Interactive Designer<i>/Developer</i><span>$53,546</span></li>
-					<li>User Interface (UI) Designer<span>$72,565</span></li>
-				</ul>
-				<ul class="chart-values row">
-					<li>0</li>
-					<li>10</li>
-					<li>20</li>
-					<li>30</li>
-					<li>40</li>
-					<li>50</li>
-					<li>60</li>
-					<li>70</li>
-					<li>80</li>
-				</ul>
-				<h4>Annual pay in thousands</h4>
-			</div></div>
-		</section>
+                    prepared to get jobs as web developers, mobile app developers, and
+                    software developers. Graduates with greater interest in design will
+                    be prepared to apply those skills to web and app design in addition
+                    to positions like user experience designer and user interface
+                    designer.</p>
+                <h3>
+                    <span>Job Title</span>Median Salary Range
+                </h3>
+                <h4>Salary data from <a href="http://payscale.com/">payscale.com</a></h4>
+                <ul class="chart-box" id="jobs-chart">
+                    <li>Mobile App <i>Designer/</i>Developer<span>$68,111</span></li>
+                    <li>Web Designer<span>$42,699</span></li>
+                    <li>Web Developer<span>$52,094</span></li>
+                    <li>User Experience (UX) Designer<span>$76,365</span></li>
+                    <li>Interactive Designer<i>/Developer</i><span>$53,546</span></li>
+                    <li>User Interface (UI) Designer<span>$72,565</span></li>
+                </ul>
+                <ul class="chart-values">
+                    <li>0</li>
+                    <li>10</li>
+                    <li>20</li>
+                    <li>30</li>
+                    <li>40</li>
+                    <li>50</li>
+                    <li>60</li>
+                    <li>70</li>
+                    <li>80</li>
+                </ul>
+                <h4>Annual pay in thousands</h4>
+            </div></div>
+        </section>
 
 
-		<section id="learn">
+        <section id="learn">
             <div class="row">
-        	   <h2 class="title-basics col-md-3 col-sm-12 col-xs-12 col-lg-3">Who Helps Me <strong><br/>Learn</strong></h2>
+               <h2 class="title-basics col-md-3 col-sm-12 col-xs-12 col-lg-3">Who Helps Me <strong><br/>Learn</strong></h2>
                <article class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                    <!--<img class="paint" src="images/IDD_paint_3.png" alt="paint" />-->
-                    <div class="left-arrow"><a href="#"> ‹ </a></div>
-                    <div id="learn-notecards" class="owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-5 col-sm-5 col-xs-5">
-                                   <h3>Kristi Montague</h3>
-                                   <h4>Education</h4>
-                                   <p>2010, M.A., Digital Photography<br/>Savannah College of Art & Design, Savannah, GA</p>
+                   <ul>
+                    <img src="images/IDD_paint_3.png" class="paint-1">
+                       <li>
+                           <h3>Kristi Montague</h3>
+                           <h4>Education</h4>
+                           <p>2010, M.A., Digital Photography<br/>Savannah College of Art & Design, Savannah, GA</p>
 
-                                   <h4>What Do You Love About What You Do?</h4>
-                                   <p><i>As creative director for the university, I use my degrees in both graphic design and photography to create digitally designed and printed pieces like brochures, booklets, and ads in the office every day. When I enter the classroom, I'm able to teach from experience, bringing real projects that I'm currently working on and letting students experience the creative processes behind them.</i></p>
+                           <h4>What Do You Love About What You Do?</h4>
+                           <p class="italic">As creative director for the university, I use my degrees in both graphic design and photography to create digitally designed and printed pieces like brochures, booklets, and ads in the office every day. When I enter the classroom, I'm able to teach from experience, bringing real projects that I'm currently working on and letting students experience the creative processes behind them.</p>
 
-                                   <h4>Portfolio</h4>
-                                   <!-- I changed this to blog to remove the horizontal scrolling. -Andy -->
-                                   <a href="http://kristimontague.squarespace.com/">Blog</a>
-                                   <a href="https://twitter.com/KristiMontague">https://twitter.com/KristiMontague</a>
-                               </div>
-                               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                                   <h4>Classes I Teach</h4>
-                                   <ul>
-                                       <li>Digital Graphic Fundamentals</li>
-                                       <li>Graphic Design I</li>
-                                       <li>Graphic Design II</li>
-                                   </ul>   
-                               </div>
-                               <div class="col-lg-4 col-md-3 col-sm-3 col-xs-3">
-                                    <img class="portrait" src="images/montague_kristi.jpg" alt="" />
-                                </div>
-                           </div>
-                        </div>
-                        <div class="item">
-                           <div class="row">
-                               <div class="col-lg-8 col-md-7 col-sm-6 col-xs-6">
-                                    <h3>Jud Davis</h3>
-                                    <h4>Education</h4>
-                                    <p>2010, M.A., Digital Photography<br/>Savannah College of Art and Design, Savannah, GA</p>
-                                    <h4>Portfolio</h4>
-                                    <a href="http://www.juddavis.com">http://www.juddavis.com</a> 
-                                    <a href="https://twitter.com/JudDavis">https://twitter.com/JudDavis</a>      
-                               </div>
-                               <div class="col-lg-4 col-md-5 col-sm-6 col-xs-6">
-                                    <img class="portrait" src="images/davis_jud.jpg" alt="" />
-                                </div>
-                           </div>
-                        </div>
-                        <div class="item">
-                            <div class="row">
-                               <div class="col-lg-8 col-md-7 col-sm-6 col-xs-6">
-                                    <h3>Laquita Thompson</h3>
-                                    <h4>Education</h4>
-                                    <p>2000, M.A. in Ed., M.F.A., M.A.<br/>University of Alabama-Huntsville, Huntsville, AL</p>
-                                    <h4>What Do You Love About What You Do?</h4>
-                                    <p><i>As the teacher of 2-D Design and 3-D Design, I feel that my job is not only to teach students the basic language and practices of art and design, but also to engender in them enough excitement about the subject to make them lifelong artists/designers, and therefore, better ones in their career lives.  I believe that early manual projects developed with traditional tools outfit students to enter the uber-digital world with a developed sense of what an artist/designer is, and see computers as another tool to express their personal creativity.</i></p>    
-                               </div>
-                               <div class="col-lg-4 col-md-5 col-sm-6 col-xs-6">
-                                    <img class="portrait" src="" alt="" />
-                                </div>
-                           </div>
-                        </div>
-                        <div class="item">
-                            <div class="row">
-                               <div class="col-lg-8 col-md-7 col-sm-6 col-xs-6">
-                                    <h3>Barbara England</h3>
-                                    <h4>Education</h4>
-                                    <p>2000, M.S.Ed., Ed.D., Instruction and Curriculum Leadership<br/>University of Memphis, Memphis, TN</p>    
-                               </div>
-                               <div class="col-lg-4 col-md-5 col-sm-6 col-xs-6">
-                                    <img class="portrait" src="images/england_barbara.jpg" alt="" />
-                                </div>
-                           </div>
-                        </div>
-                        <div class="item">
-                            <div class="row">
-                               <div class="col-lg-8 col-md-7 col-sm-6 col-xs-6">
-                                   <h3>Kenan Casey</h3>
-                                   <h4>Education</h4>
-                                   <p>2008, M.S., Ph.D., Computer Science<br/>Auburn University, Auburn, AL</p>
-                                   <h4>What Do You Love About What You Do?</h4>
-                                   <p><i>I love the creative aspects of software development. It's thrilling to create something with just your mind and see it take shape into something that people actually use.</i></p>
-                                   <a href="https://twitter.com/kenancasey">https://twitter.com/kenancasey</a>
-                               </div>
-                               <div class="col-lg-4 col-md-5 col-sm-6 col-xs-6">
-                                    <img class="portrait" src="images/casey_kenan.jpg" alt="" />
-                                </div>
-                           </div>
-                        </div>
-                        <div class="item">
-                            <div class="row">
-                               <div class="col-lg-8 col-md-7 col-sm-6 col-xs-6">
-                                    <h3>Michael Plyler</h3>
-                                    <h4>Education</h4>
-                                    <a href="https://twitter.com/mplyler">https://twitter.com/mplyler</a>    
-                               </div>
-                               <div class="col-lg-4 col-md-5 col-sm-6 col-xs-6">
-                                    <img class="portrait" src="" alt="" />
-                                </div>
-                           </div>
-                        </div>
-                        <div class="item">
-                            <div class="row">
-                               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                   <h3>Who Teaches Which Class?</h3>
-                                   <h4>Art Classes:</h4>
-                                   <ul>
-                                       <li>2-D Design- Laquita Thomson</li>
-                                       <li>Intro to Photography- Barbara England</li>
-                                       <li>Digital Graphic Fundamentals- Kristi Montague</li>
-                                       <li>3-D Design- Laquita Thomson</li>
-                                       <li>Graphic Design I- Kristi Montague</li>
-                                       <li>Graphic Design II- Kristi Montague</li>
-                                       <li>Digital Photography for Design- Jud Davis</li>
-                                       <li>Readings in Art History- Laquita Thomson</li>
-                                   </ul>
-                                   <div class="second-col">
-                                       <h4>Computer Classes:</h4>
-                                       <ul>
-                                           <li>Introduction to Web Design - Kenan Casey</li>
-                                           <li>Visual Application Programming - Kenan Casey</li>
-                                           <li>Web Application Programming - Kenan Casey</li>
-                                           <li>Advanced Web Design - Michael Plyler</li>
-                                           <li>Human-Computer Interaction - Jamie Holtin</li>
-                                           <li>Database Systems - Jamie/Steve/Kenan</li>
-                                           <li>Mobile Application Development - Kenan Casey</li>
-                                       </ul>
-                                    </div>
-                               </div>
-                           </div>
-                        </div>
-                    </div>
-                    <div class="right-arrow"><a href="#"> › </a></div>
+                           <h4>Portfolio</h4>
+                           <!-- I changed this to blog to remove the horizontal scrolling. -Andy -->
+                           <a href="http://kristimontague.com">http://kristimontague.com</a>
+                           <a href="https://twitter.com/KristiMontague">https://twitter.com/KristiMontague</a>
+                       </li>
+                       <li>
+                           <h3>Jud Davis</h3>
+                           <h4>Education</h4>
+                           <p>2010, M.A., Digital Photography<br/>Savannah College of Art and Design, Savannah, GA</p>
+                           <h4>Portfolio</h4>
+                           <a href="http://www.juddavis.com">http://www.juddavis.com</a> 
+                           <a href="https://twitter.com/JudDavis">https://twitter.com/JudDavis</a> 
+                       </li>
+                       <li>
+                           <h3>Laquita Thompson</h3>
+                           <h4>Education</h4>
+                           <p>2000, M.A. in Ed., M.F.A., M.A.<br/>University of Alabama-Huntsville, Huntsville, AL</p>
+                           <h4>What Do You Love About What You Do?</h4>
+                           <p class="italic">As the teacher of 2-D Design and 3-D Design, I feel that my job is not only to teach students the basic language and practices of art and design, but also to engender in them enough excitement about the subject to make them lifelong artists/designers, and therefore, better ones in their career lives.  I believe that early manual projects developed with traditional tools outfit students to enter the uber-digital world with a developed sense of what an artist/designer is, and see computers as another tool to express their personal creativity.</p>
+                       </li>
+                       <li>
+                           <h3>Barbara England</h3>
+                           <h4>Education</h4>
+                           <p>2000, M.S.Ed., Ed.D., Instruction and Curriculum Leadership<br/>University of Memphis, Memphis, TN</p>
+                       </li>
+                       <img src="images/IDD_paint_4.png" class="paint-2">
+                       <li>
+                           <h3>Kenan Casey</h3>
+                           <h4>Education</h4>
+                           <p>2008, M.S., Ph.D., Computer Science<br/>Auburn University, Auburn, AL</p>
+                           <h4>What Do You Love About What You Do?</h4>
+                           <p class="italic">I love the creative aspects of software development. It's thrilling to create something with just your mind and see it take shape into something that people actually use.</p>
+                           <a href="https://twitter.com/kenancasey">https://twitter.com/kenancasey</a>
+                       </li>
+                       <li id="line">
+                           <h3>Michael Plyler</h3>
+                           <h4>Education</h4>
+                           <a href="https://twitter.com/mplyler">https://twitter.com/mplyler</a>
+                       </li>
+
+                       <li>
+                           <h3>Who Teaches Which Class?</h3>
+                           <h4>Art Classes:</h4>
+                           <ul>
+                               <li>2-D Design- Laquita Thomson</li>
+                               <li>Intro to Photography- Barbara England</li>
+                               <li>Digital Graphic Fundamentals- Kristi Montague</li>
+                               <li>3-D Design- Laquita Thomson</li>
+                               <li>Graphic Design I- Kristi Montague</li>
+                               <li>Graphic Design II- Kristi Montague</li>
+                               <li>Digital Photography for Design- Jud Davis</li>
+                               <li>Readings in Art History- Laquita Thomson</li>
+                           </ul>
+                           <h4>Computer Classes:</h4>
+                           <ul>
+                               <li>Introduction to Web Design - Kenan Casey</li>
+                               <li>Visual Application Programming - Kenan Casey</li>
+                               <li>Web Application Programming - Kenan Casey</li>
+                               <li>Advanced Web Design - Michael Plyler</li>
+                               <li>Human-Computer Interaction - Jamie Holtin</li>
+                               <li>Database Systems - Jamie/Steve/Kenan</li>
+                               <li>Mobile Application Development - Kenan Casey</li>
+                           </ul>
+                        </li>                      
+                    </ul>
                 </article>
             </div>
 
@@ -530,39 +491,55 @@
 
         <section id="apply">
             <div class="row">
-        	   <h2 class="title-basics col-md-3 col-sm-12 col-xs-12 col-lg-3">How To <strong><br/>Apply</strong></h2>
+               <h2 class="title-basics col-md-3 col-sm-12 col-xs-12 col-lg-3">How To <strong><br/>Apply</strong></h2>
                 <div class="col-md-9 col-sm-9 col-xs-9 col-lg-9">
 
-		<h3>WHAT ARE THE NEXT STEPS?</h3>
-	
+        <h3>WHAT ARE THE NEXT STEPS?</h3>
     
-	<p> 
-	  We want your admissions process to be as smooth as possible. Check out
-	the <strong> FHU Admissions page </strong> and use the tools offered there to
-	learn more about FHU and what we have to offer. Take a look around, find out what
-	we're about, and if you like what you see, start down the path to becoming a
-	student. It may seem like a big job, but we're here to help you 100% of the way.
-	</p>
-	
-	<button type="button" id="button1" class="btn btn-default"><strong>APPLY TO FHU</strong></button>
-	<button type="button" id="button2" class="btn btn-default"><strong>MORE INFO ON B.A. (DESIGNER)</strong></button>
-	<button type="button" id="button3" class="btn btn-default"><strong>MORE INFO ON B.S. (DEVELOPER)</strong></button>
-	
-	<p>
-	<span id="questions">HAVE QUESTIONS? CONTACT US!</span>
-	
-	<div id="contacts">
-	
-	<span class="contact-name">Barbara England</span>
-	<span><strong>blengland@fhu.edu</strong></span>
-	
-	<span class="contact-name">Kenan Casey</span>
-	<span><strong>kcasey@fhu.edu</strong></span>
-	</p>
-	
-	</div>
-		
-		
+    
+    <p> 
+      We want your admissions process to be as smooth as possible. Check out
+    the <strong> FHU Admissions page </strong> and use the tools offered there to
+    learn more about FHU and what we have to offer. Take a look around, find out what
+    we're about, and if you like what you see, start down the path to becoming a
+    student. It may seem like a big job, but we're here to help you 100% of the way.
+    </p>
+    
+    <a href="http://www.fhu.edu/admissions/apply.aspx" target="_blank">
+      <button type="button" id="button1" class="btn btn-default btn-block
+          button-general">
+        <strong><span class="button-text">APPLY TO FHU</span></strong></button></a>
+    
+    
+    
+    <a href="http://www.fhu.edu/academics/colleges/ArtsAndSciences/FineArts/MajorinInteractiveDigitalDesign.aspx" target="_blank">
+      <button type="button" id="button2" class="btn btn-default btn-block
+          button-general"><strong>MORE INFO ON B.A. (DESIGNER)</strong></button></a>
+  
+    
+    
+    <a href="http://www.fhu.edu/academics/colleges/ArtsAndSciences/MathAndComputerScience/MajorInInteractiveDigitalDesign.aspx" target="_blank"><button type="button" id="button3" class="btn btn-default button-general"><strong>MORE INFO ON B.S. (DEVELOPER)</strong></button></a>
+    
+    
+    <div id="contact-box">
+    <p>
+    <span id="questions"> HAVE QUESTIONS? CONTACT US!</span>
+    
+    <div id="contacts">
+    
+    <span class="contact-name">Barbara England</span>
+    <span><strong>bengland@fhu.edu</strong></span>
+    
+    <span class="contact-name">Kenan Casey</span>
+    <span><strong>kcasey@fhu.edu</strong></span>
+    </p>
+    </div>
+
+    <img src="images/IDD_paint_3.png" class="paint">
+    
+    </div>
+        
+        
                 </div>
             </div>
         </section>
@@ -571,9 +548,9 @@
 
     <footer>
         <div class="container" >
-	    <a href="http://www.fhu.edu"><img src="images/footer/footer-logo.png" alt="logo"/></a>
-        	<p>Want to know more about FHU? Visit our site &#8226; Admissions<br/>
-		  Copyright 2014 Freed-Hardeman University. All rights reserved.</p>
+        <a href="http://www.fhu.edu"><img src="images/footer/footer-logo.png" alt="logo"/></a>
+            <p>Want to know more about FHU? Visit our site &#8226; <a href="http://www.fhu.edu/admissions/index.aspx">Admissions</a><br/>
+          Copyright 2014 Freed-Hardeman University. All rights reserved.</p>
         </div>
     </footer>
 
@@ -582,15 +559,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Latest compiled and minified JavaScript -->
-	<!--<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> -->
+    <!--<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/snap.svg-min.js"></script>
-    <script src="js/jquery.scrollmagic.min.js"></script>    
+    <script src="js/jquery.scrollmagic.min.js"></script>
+    <script src="js/script.js"></script>
     <script src="js/stickyNav.js"></script>
     <script type="text/javascript" src="js/jquery.fittext.js"></script>
     <script src="js/scrollNav.js"></script>
-    <script src="js/owl.carousel.js"></script>
-
-    <script src="js/script.js"></script>
+    <script src="js/offcanvas.js"></script>
   </body>
 </html>

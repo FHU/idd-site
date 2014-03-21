@@ -370,7 +370,6 @@ and (max-width : 346px)
 
 #create .paint {
 	position: absolute;
-<<<<<<< HEAD
 	top: -6%;
 	left: -16%;
 	z-index: -1;
@@ -411,13 +410,6 @@ and (max-width : 346px)
 	min-height: 600px;
 }
 
-#core-classes-svg-container-1,
-#core-classes-svg-container-2,
-#core-classes-svg-container-3,
-#dev-track-svg-container-1,
-#dev-track-svg-container-2,
-#design-track-svg-container-1,
-#design-track-svg-container-2 
 .svg-container {
 	float: left;
 	width: 10%;
@@ -489,20 +481,6 @@ and (max-width : 346px)
 #classes .row div,
 #classes .row article {
 	padding-left: 0px;
-
-#end-svg-1 {
-	width: 40%;
-}
-
-#end-svg-2{
-	width: 60%;
-}
-
-@media (max-width: 992px){
-	#classes .row div,
-	#classes .row article {
-		padding-left: 0px;
-	}
 }
 
 @media (min-width: 992px){
