@@ -371,7 +371,7 @@ and (max-width : 346px)
 #create .paint {
 	position: absolute;
 	top: -6%;
-	left: -16%;
+	left: -19%;
 	z-index: -1;
 }
 
