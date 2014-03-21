@@ -678,17 +678,10 @@ and (max-width : 346px)
 }
 
 /*********************** Learn ***********************/
-#learn .paint-1 {
+#learn .paint {
 	position: absolute;
-	left: -65%;
-	bottom: 62%;
-	z-index: -1;
-}
-
-#learn .paint-2 {
-	position: absolute;
-	right: -42%;
-	bottom: 14%;
+	left: -61%;
+	bottom: -21%;
 	z-index: -1;
 }
 
