@@ -295,13 +295,8 @@ and (max-width : 346px)
 	padding-top: 20px;
 }
 
-<<<<<<< HEAD
 #create{
 	background: url('../images/create-background.png') left top no-repeat;
-=======
-
-
-#create{
 	position: relative;
 }
 
@@ -310,7 +305,6 @@ and (max-width : 346px)
 	top:-135px;
 	left:-230px;
 	z-index: -1000;
->>>>>>> FETCH_HEAD
 }
 
 /************************** Classes **************************/
@@ -322,17 +316,14 @@ and (max-width : 346px)
 	list-style: none;
 }
 
-<<<<<<< HEAD
 #core-classes-svg-container-1,
 #core-classes-svg-container-2,
 #core-classes-svg-container-3,
 #dev-track-svg-container-1,
 #dev-track-svg-container-2,
 #design-track-svg-container-1,
-#design-track-svg-container-2 {
-=======
+#design-track-svg-container-2 
 .svg-container {
->>>>>>> FETCH_HEAD
 	float: left;
 	width: 10.1%;
 	overflow: hidden;
@@ -389,20 +380,21 @@ and (max-width : 346px)
 	}
 }
 
-<<<<<<< HEAD
+
 #end-svg-1 {
 	width: 40%;
 }
 
 #end-svg-2{
 	width: 60%;
-=======
+}
+
 @media (max-width: 992px){
 	#classes .row div,
 	#classes .row article {
 		padding-left: 0px;
 	}
->>>>>>> FETCH_HEAD
+
 }
 
 @media (min-width: 992px){
@@ -429,13 +421,8 @@ and (max-width : 346px)
 	#connector-svg-4 {
 		display: block;
 		float: left;
-<<<<<<< HEAD
-		height: 40px;
-		width: 50%;
-=======
 		height: 80px;
 		width: 25%;
->>>>>>> FETCH_HEAD
 	}
 
 	#end-dev-svg-container {
@@ -554,19 +541,8 @@ and (max-width : 346px)
 
 #jobs ul.chart-values li:first-child {
 	left: -5.45%;
-<<<<<<< HEAD
-}
-
-#jobs ul.chart-values li:last-child {
-	margin-right: 0%;
-}
-
-
-/*********************** Learn ***********************/
-#learn {
-	position: relative;
-=======
-}
+	
+	}
 
 #jobs ul.chart-values li:last-child {
 	margin-right: 0%;
@@ -576,7 +552,8 @@ and (max-width : 346px)
 /*********************** Learn ***********************/
 #learn {
 	background: url('../images/IDDBG_6Learn-26.png') left center no-repeat;
->>>>>>> FETCH_HEAD
+	position: relative;
+
 }
 
 #learn article ul {
@@ -626,7 +603,7 @@ and (max-width : 346px)
 	margin-left: 25px;
 }
 
-<<<<<<< HEAD
+
 .left-arrow {
 	width: 5%;
 	float: left;
@@ -639,10 +616,10 @@ and (max-width : 346px)
 	float: left;
 	margin-top: 105px;
 	margin-left: 15px;
-=======
+}
+
 #learn ul li ul {
 	list-style: none;
->>>>>>> FETCH_HEAD
 }
 
 .left-arrow a, .right-arrow a {
