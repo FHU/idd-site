@@ -1,4 +1,4 @@
-/************ Global Styles ***************/ 
+/************ Global Styles ***************/
 html
 {
     overflow-x: hidden;
@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2 {
-	font-weight: 700; 
+	font-weight: 700;
 }
 
 section {
@@ -26,7 +26,7 @@ section {
 	position: relative;
 }
 
-/************ Section Background Styles ***************/ 
+/************ Section Background Styles ***************/
 
 #learn, #classes{
 	position:relative;
@@ -45,7 +45,7 @@ section {
     z-index:-1;
 }
 
-/************ Title Styles ***************/ 
+/************ Title Styles ***************/
 
 
 #learn .title-basics strong, #classes .title-basics strong {
@@ -145,11 +145,11 @@ section h2:after {
 }
 
 .stickyNav{
-	position: fixed;  
-	width: 100%;  
-	left: 0;  
-	top: 0;  
-	z-index: 100;  
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 100;
 	border-top: 0;
 	/*margin-top: -13px;*/
 }
@@ -180,7 +180,7 @@ header nav li{
 	text-align: center;
 }
 
-header nav ul{	
+header nav ul{
 	/*background-color: #fff;
 	opacity: 0.9;
 	border-top: 1px solid white;
@@ -203,11 +203,11 @@ header nav ul li a:hover{
 }
 
 h3 {
-	font-weight: 400; 
+	font-weight: 400;
 }
 
 h4, h5, h6{
-	font-weight: 300; 
+	font-weight: 300;
 }
 
 header {
@@ -233,7 +233,7 @@ header .container #img-text {
 	right:30px;
 	min-height: 150px;
 	width: 50%;
-	
+
 }
 
 header .container #img-text .heading {
@@ -292,27 +292,27 @@ and (max-width : 320px)
 	header .container #img-text {
 		bottom: 0;
 	}
-	
+
 	header .container #img-text h4{
 		display:none;
 	}
-	
+
 }
-@media only screen 
+@media only screen
 and (max-width : 550px)
 {
 	header .container img {
 		display: none;
 	}
-	
+
 	header .container #img-text {
 		width: 90%;
 		right: 0;
 	}
-	
+
 }
 
-@media only screen 
+@media only screen
 and (max-width : 346px)
 {
 	header .container #img-text h4 {
@@ -352,7 +352,7 @@ and (max-width : 346px)
 	font-size: 1.45em;
 	line-height: 1.5em;
 	font-weight: 300;
-	
+
 }
 
 #what-is-idd p.med-emphasis {
@@ -612,15 +612,15 @@ and (max-width : 346px)
 }
 
 @media only screen and (max-width : 600px)
- { 
+ {
  #jobs i {
 	display: none;
 }
 }
 
 @media only screen and (max-width : 470px)
- { 
- 
+ {
+
 #jobs ul.chart-box li span {
 	display: block;
 	border-left: none;
@@ -648,7 +648,7 @@ and (max-width : 346px)
 
 
 #jobs ul.chart-values li {
-	
+
 	color: #a6cd66;
 	list-style: none;
 	display: block;
@@ -842,15 +842,15 @@ and (max-width : 346px)
 #button1 {
 	margin-top: 25px;
 	background-color: #f8cb75;
-	
+
 }
 
 #button1:hover {
 	border: solid #000 1.5px;
 	background-color: #f8cb00;
 	transition: border 1s, background-color 1s;
-	-webkit-transition: border 1s, background-color 1s; 
-	
+	-webkit-transition: border 1s, background-color 1s;
+
 }
 
 #button2 {
@@ -862,7 +862,7 @@ and (max-width : 346px)
 	border: solid #000 1.5px;
 	background-color: #00cff1;
 	transition: border 2s, background-color 2s;
-	-webkit-transition: border 2s, background-color 2s; 
+	-webkit-transition: border 2s, background-color 2s;
 }
 
 
@@ -875,7 +875,7 @@ and (max-width : 346px)
 	border: solid #000 1.5px;
 	background-color: #8dbc41;
 	transition: border 2s, background-color 2s;
-	-webkit-transition: border 2s, background-color 2s; 
+	-webkit-transition: border 2s, background-color 2s;
 }
 
 
@@ -884,26 +884,26 @@ and (max-width : 346px)
 	#apply p {
 		width: 100%;
 	}
-	
-	
+
+
 	.button-general {
 		margin: 0px;
 		margin-bottom: 15px;
 	}
-	
+
 	#button1 {
 		width: 100%;
 	}
-	
+
 	#button2 {
 		width: 100%;
 	}
-	
+
 	#button3 {
 		width: 100%;
 	}
-	
-	
+
+
 }
 
 #questions p{
@@ -915,7 +915,7 @@ and (max-width : 346px)
 }
 
 #contacts span{
-	
+
 	font-size: 14px;
 	display: block;
 }
@@ -934,6 +934,7 @@ footer .container {
 	display: block;
 	margin:0 auto;
 	background-color: #e8e8e8;
+  opacity: 0.8;
 	width:100%;
 	text-align: center;
 }
