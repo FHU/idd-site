@@ -335,6 +335,9 @@ and (max-width : 346px)
 	top: -260px;
 	right: -318px;
 	z-index: -1;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
 }
 
 @media screen and (max-width: 768px) {
