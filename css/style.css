@@ -124,12 +124,14 @@ section h2:after {
 /****************** Nav styles **********************/
 #navBackground{
 	width: 100%;
-	background-color: #e8e8e8;
+	/*background-color: #e8e8e8; #999999 #666666*/
+	background-color: #999999;
+	
 }
 
 #navBorder{
 	display:block;
-	height:60px;
+	/*height:60px;*/
 	width:100%;
 	/*border-top: 1px solid white;
 	border-bottom: 1px solid white;*/
@@ -177,12 +179,14 @@ section h2:after {
 	font-size: 1.4em;
 }
 header nav ul li:hover, #navigation-scrollspy li.active a {
-	background-color: #D9D8D8;
-	box-shadow: 0 0 30px 15px #e8e8e8 inset;
+	/*background-color: #D9D8D8;
+	box-shadow: 0 0 30px 15px #e8e8e8 inset;*/
+	background-color: #666666;
+	box-shadow: 0 0 30px 15px #999999 inset;
 }
 
 header nav{
-	background-color: #e8e8e8;
+	/*background-color: #e8e8e8;*/
 	color: black;
 	text-transform: uppercase;
 	/*margin-top: 10px;
@@ -200,7 +204,8 @@ header nav ul{
 	opacity: 0.9;
 	border-top: 1px solid white;
 	border-bottom: 1px solid white;*/
-	background-color: #e8e8e8;
+	/*background-color: #e8e8e8;*/
+	background-color: #999999;
 }
 
 header nav ul li a{
