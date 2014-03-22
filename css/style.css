@@ -930,20 +930,31 @@ and (max-width : 346px)
 }
 
 #questions p{
+	margin-top: 20px;
 	font-size: 14px;
 	text-align: center;
 }
 
 #contact-box {
+	margin-left: 75px;
 }
+
+@media (max-width: 768px) {
+	
+	#contact-box {
+		margin-left: 0px;
+	}
+	
+	
+}
+
 
 #contacts span{
-
+	
 	font-size: 14px;
 	display: block;
-}
-
-.contact-name {
+	text-align: center;
+	
 }
 
 
