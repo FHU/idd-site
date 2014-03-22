@@ -377,6 +377,10 @@ and (max-width : 346px)
 	}
 }
 
+#what-is-idd p {
+	padding-bottom: 1em;
+}
+
 #what-is-idd p.high-emphasis {
 	font-size: 1.45em;
 	line-height: 1.5em;
