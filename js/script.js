@@ -263,7 +263,96 @@ $(window).scroll(function(){
 
 /*****************************************************************************************/
 
+/***************************************Create Sliders****************************************/
+$(document).ready(function() {
+
+	var owl = $("#create-notecards");
+
+    owl.owlCarousel({
+
+        slideSpeed : 300,
+        paginationSpeed : 400,
+        singleItem:true
+     
+     
+    });
+
+    $(".create-next").click(function(){
+    	owl.trigger('owl.next');
+    });
+
+    $(".create-next a").click(function(event) {
+    	event.preventDefault();
+    });
+
+    $(".create-prev").click(function(){
+    	owl.trigger('owl.prev');
+    });
+
+    $(".create-prev a").click(function(event) {
+    	event.preventDefault();
+    });
+});
+
+$(document).ready(function() {
+
+	var owl = $("#create-notecard");
+
+    owl.owlCarousel({
+
+        slideSpeed : 300,
+        paginationSpeed : 400,
+        singleItem:true
+     
+     
+    });
+
+    $(".create-nex").click(function(){
+    	owl.trigger('owl.next');
+    });
+
+    $(".create-nex a").click(function(event) {
+    	event.preventDefault();
+    });
+
+    $(".create-pre").click(function(){
+    	owl.trigger('owl.prev');
+    });
+
+    $(".create-pre a").click(function(event) {
+    	event.preventDefault();
+    });
+});
+
+$(document).ready(function() {
+
+	var owl = $("#create-note");
+
+    owl.owlCarousel({
+
+        slideSpeed : 300,
+        paginationSpeed : 400,
+        singleItem:true
+     
+     
+    });
+
+    $(".create-nexts").click(function(){
+    	owl.trigger('owl.next');
+    });
+
+    $(".create-nexts a").click(function(event) {
+    	event.preventDefault();
+    });
+
+    $(".create-prevs").click(function(){
+    	owl.trigger('owl.prev');
+    });
+
+    $(".create-prevs a").click(function(event) {
+    	event.preventDefault();
+    });
+});
 
 
-
-
+/*****************************************************************************************/

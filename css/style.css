@@ -427,6 +427,10 @@ and (max-width : 346px)
 	}
 }
 
+#create #create-notecards {
+	display: block;
+}
+
 /************************** Classes **************************/
 #classes .paint {
 	position: absolute;
