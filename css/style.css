@@ -785,11 +785,11 @@ and (max-width : 346px)
 }
 
 #learn .twitter {
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 .portrait {
-	max-height: 300px;
+	max-height: 250px;
 }
 
 .summary {
@@ -820,6 +820,12 @@ and (max-width : 346px)
 	font-size: 80px;
 	font-weight: 100;
 	text-decoration: none;
+}
+
+@media (max-width: 768px) {
+	.summary {
+		margin-top: 15px;
+	}
 }
 /************************ Apply ************************/
 
