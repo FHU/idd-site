@@ -1,4 +1,4 @@
-/************ Global Styles ***************/ 
+/************ Global Styles ***************/
 html
 {
     overflow-x: hidden;
@@ -17,12 +17,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2 {
-	font-weight: 700; 
+	font-weight: 700;
 }
 
 section {
 	padding-top: 2em;
-	padding-bottom: 13em;
+	padding-bottom: 9em;
 	position: relative;
 }
 
@@ -32,7 +32,6 @@ section {
 	}
 }
 
-/************ Section Background Styles ***************/ 
 
 #learn, #classes{
 	position:relative;
@@ -51,7 +50,7 @@ section {
     z-index:-1;
 }
 
-/************ Title Styles ***************/ 
+/************ Title Styles ***************/
 
 
 #learn .title-basics strong, #classes .title-basics strong {
@@ -91,8 +90,8 @@ section {
     font-family: 'Oswald', sans-serif;
 }
 
-.create-title strong {
-    color: #fff;
+.create-title strong, .learn-title strong{
+    color: #fff !important;
  }
 
  #what-is-idd .title-basics strong {
@@ -130,32 +129,49 @@ section h2:after {
 /****************** Nav styles **********************/
 #navBackground{
 	width: 100%;
-	background-color: #e8e8e8;
+	/*background-color: #e8e8e8; #999999 #666666*/
+	background-color: #999999;
+	
 }
 
 #navBorder{
 	display:block;
-	height:100%;
+	/*height:60px;*/
 	width:100%;
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
+	/*border-top: 1px solid white;
+	border-bottom: 1px solid white;*/
+}
+
+#navBorder .container{
+	min-height: 0;
 }
 
 #anotherContainer{
 	display:block;
 	width: 100%;
-	height: 110px;
+	/*height: 110px;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid white;
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid white;*/
+}
+
+#mainNav p{
+	margin-bottom: 0;
+}
+
+#mainNav button{
+	width: 44px;
+	height: 44px;
+	font-size: 1.5em;
 }
 
 .stickyNav{
-	position: fixed;  
-	width: 100%;  
-	left: 0;  
-	top: 0;  
-	z-index: 100;  
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	left: 0;
+	top: 0;
+	z-index: 100;
 	border-top: 0;
 	/*margin-top: -13px;*/
 }
@@ -165,19 +181,22 @@ section h2:after {
 	display:block;
 	width:100%;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.4em;
 }
 header nav ul li:hover, #navigation-scrollspy li.active a {
-	background-color: #D9D8D8;
-	box-shadow: 0 0 30px 15px #e8e8e8 inset;
+	/*background-color: #D9D8D8;
+	box-shadow: 0 0 30px 15px #e8e8e8 inset;*/
+	background-color: #666666;
+	box-shadow: 0 0 30px 15px #999999 inset;
+	border-radius: 20px;
 }
 
 header nav{
-	background-color: #e8e8e8;
+	/*background-color: #e8e8e8;*/
 	color: black;
 	text-transform: uppercase;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	/*margin-top: 10px;
+	margin-bottom: 10px;*/
 }
 
 header nav li{
@@ -186,12 +205,13 @@ header nav li{
 	text-align: center;
 }
 
-header nav ul{	
+header nav ul{
 	/*background-color: #fff;
 	opacity: 0.9;
 	border-top: 1px solid white;
 	border-bottom: 1px solid white;*/
-	background-color: #e8e8e8;
+	/*background-color: #e8e8e8;*/
+	background-color: #999999;
 }
 
 header nav ul li a{
@@ -209,11 +229,11 @@ header nav ul li a:hover{
 }
 
 h3 {
-	font-weight: 400; 
+	font-weight: 400;
 }
 
 h4, h5, h6{
-	font-weight: 300; 
+	font-weight: 300;
 }
 
 header {
@@ -239,7 +259,7 @@ header .container #img-text {
 	right:30px;
 	min-height: 150px;
 	width: 50%;
-	
+
 }
 
 header .container #img-text .heading {
@@ -247,6 +267,12 @@ header .container #img-text .heading {
 	letter-spacing: 5px;
 	margin: 0;
 	white-space: nowrap;
+}
+
+@media screen and (max-width: 925px){
+	#mainNav{
+		font-size: 0.77em;
+	}
 }
 /*
  * Off Canvas
@@ -291,6 +317,10 @@ header .container #img-text .heading {
     top: 0;
     width: 100%; /* 12 columns */
   }
+  
+  #mainNav{
+	z-index: 100;
+  }
 }
 @media only screen
 and (max-width : 320px)
@@ -298,34 +328,34 @@ and (max-width : 320px)
 	header .container #img-text {
 		bottom: 0;
 	}
-	
+
 	header .container #img-text h4{
 		display:none;
 	}
-	
+
 }
-@media only screen 
+@media only screen
 and (max-width : 550px)
 {
 	header .container img {
 		display: none;
 	}
-	
+
 	header .container #img-text {
 		width: 90%;
 		right: 0;
 	}
-	
+
 }
 
-@media only screen 
+@media only screen
 and (max-width : 346px)
 {
 	header .container #img-text h4 {
 		margin-left: 5px;
 	}
 	#mainNav{
-		font-size:0.4em;
+		/*font-size:0.4em;*/
 	}
 }
 /******************** What is IDD ************************/
@@ -341,21 +371,27 @@ and (max-width : 346px)
 	top: -260px;
 	right: -318px;
 	z-index: -1;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
 }
 
 @media screen and (max-width: 768px) {
 	#what-is-idd .paint {
-		top: 56%;
+		top: -11%;
 		right: -17%;
 	}
+}
 
+#what-is-idd p {
+	padding-bottom: 1em;
 }
 
 #what-is-idd p.high-emphasis {
 	font-size: 1.45em;
 	line-height: 1.5em;
 	font-weight: 300;
-	
+
 }
 
 #what-is-idd p.med-emphasis {
@@ -385,6 +421,9 @@ and (max-width : 346px)
 	top: -6%;
 	left: -19%;
 	z-index: -1;
+	transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
 }
 
 @media screen and (max-width: 550px) {
@@ -393,7 +432,26 @@ and (max-width : 346px)
 		left: -21%;
 	}
 }
+.left-arrow-create {
+	width: 5%;
+	float: left;
+	margin-top: 150px;
+	margin-right: 10px;
+}
 
+.right-arrow-create {
+	width: 5%;
+	float: left;
+	margin-top: 150px;
+}
+
+.left-arrow-create a, .right-arrow-create a {
+	font-family: 'Lato';
+	font-size: 80px;
+	font-weight: 700;
+	color: #000;
+	text-decoration: none;
+}
 /************************** Classes **************************/
 #classes .paint {
 	position: absolute;
@@ -516,7 +574,7 @@ and (max-width : 346px)
 		display: block;
 		float: left;
 		height: 80px;
-		width: 19%;
+		width: 24%;
 	}
 
 	#end-dev-svg-container,
@@ -612,15 +670,15 @@ and (max-width : 346px)
 }
 
 @media only screen and (max-width : 600px)
- { 
+ {
  #jobs i {
 	display: none;
 }
 }
 
 @media only screen and (max-width : 470px)
- { 
- 
+ {
+
 #jobs ul.chart-box li span {
 	display: block;
 	border-left: none;
@@ -648,7 +706,7 @@ and (max-width : 346px)
 
 
 #jobs ul.chart-values li {
-	
+
 	color: #a6cd66;
 	list-style: none;
 	display: block;
@@ -684,21 +742,25 @@ and (max-width : 346px)
 }
 
 /*********************** Learn ***********************/
-#learn .paint-1 {
+#learn .paint {
 	position: absolute;
 	left: -65%;
-	bottom: 62%;
-	z-index: -1;
-}
-
-#learn .paint-2 {
-	position: absolute;
-	right: -42%;
 	bottom: 14%;
 	z-index: -1;
 }
 
-@media only and screen (max-width: 768px) {
+
+@media screen and (max-width: 991px) {
+	#learn .paint {
+		left: -30%;
+		bottom: 60%;
+	}
+}
+@media screen and (max-width: 768px) {
+	#learn .paint {
+		left: -30%;
+		bottom: 70%;
+	}
 	#learn .paint-1 {
 		left: -30%;
 		bottom: 76%;
@@ -707,6 +769,12 @@ and (max-width : 346px)
 	#learn .paint-2 {
 		left: -26%;
 		bottom: 15%;
+	}
+}
+@media screen and (max-width: 480px) {
+	#learn .paint {
+		left: -30%;
+		bottom: 93%;
 	}
 }
 
@@ -726,14 +794,8 @@ and (max-width : 346px)
 }
 
 #learn #indent {
-	margin-left: 6px;
+	margin-left: 10px;
 }
-
-/*#learn .paint {
-	position: absolute;
-	z-index: -100;
-	left: -500px;
-}*/
 
 #learn #learn-notecards {
 	display: block;
@@ -765,7 +827,11 @@ and (max-width : 346px)
 }
 
 #learn .twitter {
-	margin-bottom: 20px;
+	margin-bottom: 15px;
+}
+
+.portrait {
+	max-height: 250px;
 }
 
 .summary {
@@ -776,13 +842,6 @@ and (max-width : 346px)
 	position: relative;
 	top: 36px;
 	left: 20px;
-}
-
-.second-col {
-	position: relative;
-	top: -21px;
-	margin-left: 25px;
-	float: left;
 }
 
 .left-arrow {
@@ -796,7 +855,6 @@ and (max-width : 346px)
 	width: 5%;
 	float: left;
 	margin-top: 105px;
-	margin-left: 15px;
 }
 
 .left-arrow a, .right-arrow a {
@@ -804,6 +862,13 @@ and (max-width : 346px)
 	font-size: 80px;
 	font-weight: 100;
 	text-decoration: none;
+	color: #000;
+}
+
+@media (max-width: 768px) {
+	.summary {
+		margin-top: 15px;
+	}
 }
 /************************ Apply ************************/
 
@@ -830,6 +895,10 @@ and (max-width : 346px)
 	text-decoration: none;
 }
 
+#apply p a:hover {
+	text-decoration: underline;
+}
+
 #apply h2 {
 	letter-spacing: 7px;
 }
@@ -849,15 +918,14 @@ and (max-width : 346px)
 #button1 {
 	margin-top: 25px;
 	background-color: #f8cb75;
-	
+
 }
 
 #button1:hover {
 	border: solid #000 1.5px;
 	background-color: #f8cb00;
 	transition: border 1s, background-color 1s;
-	-webkit-transition: border 1s, background-color 1s; 
-	
+	-webkit-transition: border 1s, background-color 1s;
 }
 
 #button2 {
@@ -869,7 +937,7 @@ and (max-width : 346px)
 	border: solid #000 1.5px;
 	background-color: #00cff1;
 	transition: border 2s, background-color 2s;
-	-webkit-transition: border 2s, background-color 2s; 
+	-webkit-transition: border 2s, background-color 2s;
 }
 
 
@@ -882,54 +950,75 @@ and (max-width : 346px)
 	border: solid #000 1.5px;
 	background-color: #8dbc41;
 	transition: border 2s, background-color 2s;
-	-webkit-transition: border 2s, background-color 2s; 
+	-webkit-transition: border 2s, background-color 2s;
 }
 
+
+@media (max-width : 991px) {
+	
+	.button-general {
+		width: 75%;
+	}
+}
 
 @media (max-width: 768px) {
 
 	#apply p {
 		width: 100%;
 	}
-	
-	
+
+
 	.button-general {
 		margin: 0px;
 		margin-bottom: 15px;
 	}
-	
+
 	#button1 {
 		width: 100%;
 	}
-	
+
 	#button2 {
 		width: 100%;
 	}
-	
+
 	#button3 {
 		width: 100%;
 	}
-	
-	
+
+
 }
 
 #questions p{
+	margin-top: 20px;
 	font-size: 14px;
 	text-align: center;
 }
 
 #contact-box {
+	margin-left: 75px;
 }
+
+@media (max-width: 768px) {
+	
+	#contact-box {
+		margin-left: 0px;
+	}
+	
+	
+}
+
 
 #contacts span{
 	
 	font-size: 14px;
 	display: block;
+	text-align: center;
+	
 }
 
-.contact-name {
+.contact-name{
+	padding-top: 15px;
 }
-
 
 /************************ Footer ************************/
 
@@ -941,6 +1030,7 @@ footer .container {
 	display: block;
 	margin:0 auto;
 	background-color: #e8e8e8;
+  opacity: 0.8;
 	width:100%;
 	text-align: center;
 }
@@ -950,5 +1040,24 @@ footer .container img {
 }
 
 footer .container p {
-	margin: 0 auto 60px auto;
+    	margin: 0 auto;
 }
+
+footer .container p:last-child {
+	margin-bottom: 60px;
+}
+
+footer .container span, footer .container a {
+    margin: 0 5px;
+}
+
+ footer .container div {
+    display: inline;
+ }
+
+@media screen and (max-device-width: 768px) {
+    footer .container div {
+	display: block;
+    }
+}
+
