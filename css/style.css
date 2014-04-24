@@ -768,7 +768,7 @@ and (max-width : 346px)
 @media screen and (max-width: 480px) {
 	#learn .paint {
 		left: -30%;
-		bottom: 98%;
+		bottom: 85%;
 	}
 }
 
@@ -945,17 +945,6 @@ and (max-width : 346px)
 }
 
 
-@media (max-width : 991px) {
-	
-	.button-general {
-		width: 100%;
-	}
-}
-
-
-
-
-
 @media (max-width: 768px) {
 
 	#apply p {
@@ -966,8 +955,20 @@ and (max-width : 346px)
 	.button-general {
 		margin: 0px;
 		margin-bottom: 15px;
+	}
+
+	#button1 {
 		width: 100%;
 	}
+
+	#button2 {
+		width: 100%;
+	}
+
+	#button3 {
+		width: 100%;
+	}
+
 
 }
 
@@ -1027,7 +1028,7 @@ footer .container p:last-child {
 	margin-bottom: 60px;
 }
 
-footer .container p span, footer .container p a {
+footer .container span, footer .container a {
     margin: 0 5px;
 }
 
@@ -1035,7 +1036,7 @@ footer .container p span, footer .container p a {
     display: inline;
  }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-device-width: 768px) {
     footer .container div {
 	display: block;
     }
