@@ -770,11 +770,7 @@ and (max-width : 346px)
 @media screen and (max-width: 480px) {
 	#learn .paint {
 		left: -30%;
-<<<<<<< HEAD
-		bottom: 85%;
-=======
 		bottom: 93%;
->>>>>>> 1e573d91ee209e4bb591228ee221293d547bbc61
 	}
 }
 
