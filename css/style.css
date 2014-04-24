@@ -26,6 +26,7 @@ section {
 	position: relative;
 }
 
+
 /************ Section Background Styles ***************/
 
 #learn, #classes{
@@ -772,7 +773,7 @@ and (max-width : 346px)
 @media screen and (max-width: 480px) {
 	#learn .paint {
 		left: -30%;
-		bottom: 85%;
+		bottom: 93%;
 	}
 }
 
@@ -893,6 +894,10 @@ and (max-width : 346px)
 	text-decoration: none;
 }
 
+#apply p a:hover {
+	text-decoration: underline;
+}
+
 #apply h2 {
 	letter-spacing: 7px;
 }
@@ -920,7 +925,6 @@ and (max-width : 346px)
 	background-color: #f8cb00;
 	transition: border 1s, background-color 1s;
 	-webkit-transition: border 1s, background-color 1s;
-
 }
 
 #button2 {
@@ -948,6 +952,13 @@ and (max-width : 346px)
 	-webkit-transition: border 2s, background-color 2s;
 }
 
+
+@media (max-width : 991px) {
+	
+	.button-general {
+		width: 75%;
+	}
+}
 
 @media (max-width: 768px) {
 
@@ -1004,6 +1015,9 @@ and (max-width : 346px)
 	
 }
 
+.contact-name{
+	padding-top: 15px;
+}
 
 /************************ Footer ************************/
 
@@ -1032,7 +1046,17 @@ footer .container p:last-child {
 	margin-bottom: 60px;
 }
 
-footer .container p span, footer .container p a {
+footer .container span, footer .container a {
     margin: 0 5px;
+}
+
+ footer .container div {
+    display: inline;
+ }
+
+@media screen and (max-device-width: 768px) {
+    footer .container div {
+	display: block;
+    }
 }
 

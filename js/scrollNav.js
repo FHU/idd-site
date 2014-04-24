@@ -12,7 +12,6 @@ $(document).ready(function(){
 		var offsetTop = offset.top;
 		var totalScroll = offsetTop-navheight;
 		
-                $("#mainNav").removeClass("active");
 		$('body,html').animate({
 		scrollTop: totalScroll
 		}, 2000);

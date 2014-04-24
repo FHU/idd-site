@@ -8,41 +8,12 @@ $(document).ready(function(){
 	$('header .container #img-text h2').css('letter-spacing', '7px');
 });
 
-$(document).ready(function() {
-
-	var owl = $("#learn-notecards");
-
-    owl.owlCarousel({
-
-        //navigation : true, // Show next and prev buttons
-        slideSpeed : 300,
-        paginationSpeed : 400,
-        singleItem:true
-     
-      // "singleItem:true" is a shortcut for:
-      // items : 1, 
-      // itemsDesktop : false,
-      // itemsDesktopSmall : false,
-      // itemsTablet: false,
-      // itemsMobile : false
-     
-    });
-
-    $(".learn-next").click(function(){
-    	owl.trigger('owl.next');
-    });
-
-    $(".learn-next a").click(function(event) {
-    	event.preventDefault();
-    });
-
-    $(".learn-prev").click(function(){
-    	owl.trigger('owl.prev');
-    });
-
-    $(".learn-prev a").click(function(event) {
-    	event.preventDefault();
-    });
+$(document).ready(function(){
+	$('.carousel slide').slick({
+	  autoplay: true,
+	  arrows: false
+	});
+	$('.carousel slide').slickPlay();
 });
 
 var has_graph_been_reached = false;
@@ -263,96 +234,7 @@ $(window).scroll(function(){
 
 /*****************************************************************************************/
 
-/***************************************Create Sliders****************************************/
-$(document).ready(function() {
-
-	var owl = $("#create-notecards");
-
-    owl.owlCarousel({
-
-        slideSpeed : 300,
-        paginationSpeed : 400,
-        singleItem:true
-     
-     
-    });
-
-    $(".create-next").click(function(){
-    	owl.trigger('owl.next');
-    });
-
-    $(".create-next a").click(function(event) {
-    	event.preventDefault();
-    });
-
-    $(".create-prev").click(function(){
-    	owl.trigger('owl.prev');
-    });
-
-    $(".create-prev a").click(function(event) {
-    	event.preventDefault();
-    });
-});
-
-$(document).ready(function() {
-
-	var owl = $("#create-notecard");
-
-    owl.owlCarousel({
-
-        slideSpeed : 300,
-        paginationSpeed : 400,
-        singleItem:true
-     
-     
-    });
-
-    $(".create-nex").click(function(){
-    	owl.trigger('owl.next');
-    });
-
-    $(".create-nex a").click(function(event) {
-    	event.preventDefault();
-    });
-
-    $(".create-pre").click(function(){
-    	owl.trigger('owl.prev');
-    });
-
-    $(".create-pre a").click(function(event) {
-    	event.preventDefault();
-    });
-});
-
-$(document).ready(function() {
-
-	var owl = $("#create-note");
-
-    owl.owlCarousel({
-
-        slideSpeed : 300,
-        paginationSpeed : 400,
-        singleItem:true
-     
-     
-    });
-
-    $(".create-nexts").click(function(){
-    	owl.trigger('owl.next');
-    });
-
-    $(".create-nexts a").click(function(event) {
-    	event.preventDefault();
-    });
-
-    $(".create-prevs").click(function(){
-    	owl.trigger('owl.prev');
-    });
-
-    $(".create-prevs a").click(function(event) {
-    	event.preventDefault();
-    });
-});
 
 
-/*****************************************************************************************/
+
+

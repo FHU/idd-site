@@ -5,9 +5,9 @@
     var scrollTop = $(window).scrollTop();  
            
     if (scrollTop > stickyNavTop) {   
-        $('#navBorder').addClass('stickyNav');  
+        $('#mainNav ul').addClass('stickyNav');  
     } else {  
-        $('#navBorder').removeClass('stickyNav');   
+        $('#mainNav ul').removeClass('stickyNav');   
     }  
     };  
       
