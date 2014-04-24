@@ -183,12 +183,12 @@ section h2:after {
 	text-align: center;
 	font-size: 1.4em;
 }
-header nav ul li:hover, #navigation-scrollspy li.active a {
-	/*background-color: #D9D8D8;
-	box-shadow: 0 0 30px 15px #e8e8e8 inset;*/
-	background-color: #666666;
-	box-shadow: 0 0 30px 15px #999999 inset;
-	border-radius: 20px;
+
+header nav ul li:hover a, #navigation-scrollspy li.active a{
+	background-color: #888888;
+	box-shadow: 0 0 20px 10px #888888;
+	border-radius: 45px / 20px;
+	overflow: visible;
 }
 
 header nav{
@@ -203,6 +203,7 @@ header nav li{
 	list-style: none;
 	height: 100%;
 	text-align: center;
+	padding: 15px 0px;
 }
 
 header nav ul{
@@ -212,6 +213,8 @@ header nav ul{
 	border-bottom: 1px solid white;*/
 	/*background-color: #e8e8e8;*/
 	background-color: #999999;
+	margin-bottom: 0px;
+	overflow: hidden;
 }
 
 header nav ul li a{
