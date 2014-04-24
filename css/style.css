@@ -945,6 +945,17 @@ and (max-width : 346px)
 }
 
 
+@media (max-width : 991px) {
+	
+	.button-general {
+		width: 100%;
+	}
+}
+
+
+
+
+
 @media (max-width: 768px) {
 
 	#apply p {
@@ -955,20 +966,8 @@ and (max-width : 346px)
 	.button-general {
 		margin: 0px;
 		margin-bottom: 15px;
-	}
-
-	#button1 {
 		width: 100%;
 	}
-
-	#button2 {
-		width: 100%;
-	}
-
-	#button3 {
-		width: 100%;
-	}
-
 
 }
 
