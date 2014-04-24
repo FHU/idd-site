@@ -163,6 +163,9 @@ section h2:after {
 	width: 44px;
 	height: 44px;
 	font-size: 1.5em;
+	background-color: #999;
+	color: white;
+	border-radius: 0;
 }
 
 .stickyNav{
@@ -323,6 +326,25 @@ header .container #img-text .heading {
   
   #mainNav{
 	z-index: 100;
+  }
+  
+  header nav ul li a{
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*font-size: 1.4em;*/
+	border-bottom: 1px solid white;
+  }
+  
+  header nav ul li:last-child a{
+	border-bottom: none;
+  }
+  
+  .whiteNavText{
+	text-align: right;
+	margin-left: 5px;
+	display: inline;
+	width: auto;
   }
 }
 @media only screen
