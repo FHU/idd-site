@@ -1032,3 +1032,13 @@ footer .container p span, footer .container p a {
     margin: 0 5px;
 }
 
+ footer .container div {
+    display: inline;
+ }
+
+@media screen and (max-width: 768px) {
+    footer .container div {
+	display: block;
+    }
+}
+
