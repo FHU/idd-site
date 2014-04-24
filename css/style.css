@@ -26,6 +26,7 @@ section {
 	position: relative;
 }
 
+
 /************ Section Background Styles ***************/
 
 #learn, #classes{
@@ -183,6 +184,7 @@ header nav ul li:hover, #navigation-scrollspy li.active a {
 	box-shadow: 0 0 30px 15px #e8e8e8 inset;*/
 	background-color: #666666;
 	box-shadow: 0 0 30px 15px #999999 inset;
+	border-radius: 20px;
 }
 
 header nav{
@@ -768,7 +770,11 @@ and (max-width : 346px)
 @media screen and (max-width: 480px) {
 	#learn .paint {
 		left: -30%;
+<<<<<<< HEAD
 		bottom: 85%;
+=======
+		bottom: 93%;
+>>>>>>> 1e573d91ee209e4bb591228ee221293d547bbc61
 	}
 }
 
@@ -889,6 +895,10 @@ and (max-width : 346px)
 	text-decoration: none;
 }
 
+#apply p a:hover {
+	text-decoration: underline;
+}
+
 #apply h2 {
 	letter-spacing: 7px;
 }
@@ -916,7 +926,6 @@ and (max-width : 346px)
 	background-color: #f8cb00;
 	transition: border 1s, background-color 1s;
 	-webkit-transition: border 1s, background-color 1s;
-
 }
 
 #button2 {
@@ -944,6 +953,13 @@ and (max-width : 346px)
 	-webkit-transition: border 2s, background-color 2s;
 }
 
+
+@media (max-width : 991px) {
+	
+	.button-general {
+		width: 75%;
+	}
+}
 
 @media (max-width: 768px) {
 
