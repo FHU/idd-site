@@ -85,8 +85,8 @@ section {
     font-family: 'Oswald', sans-serif;
 }
 
-.create-title strong {
-    color: #fff;
+.create-title strong, .learn-title strong{
+    color: #fff !important;
  }
 
  #what-is-idd .title-basics strong {
@@ -738,12 +738,23 @@ and (max-width : 346px)
 /*********************** Learn ***********************/
 #learn .paint {
 	position: absolute;
-	left: -61%;
-	bottom: -21%;
+	left: -65%;
+	bottom: 14%;
 	z-index: -1;
 }
 
-@media only and screen (max-width: 768px) {
+
+@media screen and (max-width: 991px) {
+	#learn .paint {
+		left: -30%;
+		bottom: 60%;
+	}
+}
+@media screen and (max-width: 768px) {
+	#learn .paint {
+		left: -30%;
+		bottom: 70%;
+	}
 	#learn .paint-1 {
 		left: -30%;
 		bottom: 76%;
@@ -752,6 +763,12 @@ and (max-width : 346px)
 	#learn .paint-2 {
 		left: -26%;
 		bottom: 15%;
+	}
+}
+@media screen and (max-width: 480px) {
+	#learn .paint {
+		left: -30%;
+		bottom: 85%;
 	}
 }
 
