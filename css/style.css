@@ -953,7 +953,7 @@ and (max-width : 346px)
 @media (max-width : 991px) {
 	
 	.button-general {
-		width: 100%;
+		width: 75%;
 	}
 }
 
