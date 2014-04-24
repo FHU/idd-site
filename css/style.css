@@ -1023,3 +1023,8 @@ footer .container img {
 footer .container p {
 	margin: 0 auto 60px auto;
 }
+
+footer .container p span, footer .container p a {
+    margin: 0 5px;
+}
+
