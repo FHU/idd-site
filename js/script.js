@@ -9,11 +9,11 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-	$('.carousel slide').slick({
+	$('.owl-carousel').slick({
 	  autoplay: true,
-	  arrows: false,
+	  arrows: false
 	});
-	$('.carousel slide').slickPlay();
+	$('.owl-carousel').slickPlay();
 });
 
 var has_graph_been_reached = false;
