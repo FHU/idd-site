@@ -11,7 +11,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$('.carousel slide').slick({
 	  autoplay: true,
-	  arrows: false
+	  arrows: false,
 	});
 	$('.carousel slide').slickPlay();
 });
