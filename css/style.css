@@ -26,6 +26,12 @@ section {
 	position: relative;
 }
 
+@media screen and (max-width: 550px) {
+	section {
+		padding-bottom: 1em;
+	}
+}
+
 /************ Section Background Styles ***************/ 
 
 #learn, #classes{
