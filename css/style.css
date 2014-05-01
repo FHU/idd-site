@@ -880,6 +880,15 @@ and (max-width : 346px)
 }
 
 
+@media (max-width : 991px) {
+	
+	.button-general {
+		width: 75%;
+	}
+}
+
+
+
 @media (max-width: 768px) {
 
 	#apply p {
@@ -890,17 +899,6 @@ and (max-width : 346px)
 	.button-general {
 		margin: 0px;
 		margin-bottom: 15px;
-	}
-	
-	#button1 {
-		width: 100%;
-	}
-	
-	#button2 {
-		width: 100%;
-	}
-	
-	#button3 {
 		width: 100%;
 	}
 	
@@ -908,22 +906,36 @@ and (max-width : 346px)
 }
 
 #questions p{
+	margin-top: 20px;
 	font-size: 14px;
 	text-align: center;
 }
 
 #contact-box {
+	margin-left: 75px;
 }
+
+@media (max-width: 768px) {
+	
+	#contact-box {
+		margin-left: 0px;
+	}
+	
+	
+}
+
 
 #contacts span{
 	
 	font-size: 14px;
 	display: block;
+	text-align: center;
+	
 }
 
-.contact-name {
+.contact-name{
+	padding-top: 15px;
 }
-
 
 /************************ Footer ************************/
 
