@@ -168,6 +168,10 @@ section h2:after {
 	border-radius: 0;
 }
 
+header .container img{
+	padding-top: 85px;
+}
+
 .stickyNav{
 	position: fixed;
 	width: 100%;
