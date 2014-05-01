@@ -388,6 +388,24 @@ and (max-width : 346px)
 	}
 }
 
+@media screen and (max-width:650px)
+{
+	#create .paint{
+		top: -30px;
+		left: -120px;
+	}
+}
+
+
+@media screen and (max-width:700px)
+{
+	#create .paint{
+		top: -50px;
+		left: -125px
+	}
+}
+
+
 /************************** Classes **************************/
 #classes .paint {
 	position: absolute;
