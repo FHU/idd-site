@@ -8,12 +8,23 @@ $(document).ready(function(){
 	$('header .container #img-text h2').css('letter-spacing', '7px');
 });
 
-$(document).ready(function(){
-	$('.owl-carousel').slick({
-	  autoplay: true,
-	  arrows: false
-	});
-	$('.owl-carousel').slickPlay();
+$(document).ready(function() {
+
+    $("#learn-notecards").owlCarousel({
+
+        //navigation : true, // Show next and prev buttons
+        slideSpeed : 300,
+        paginationSpeed : 400,
+        singleItem:true
+     
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+     
+    });
 });
 
 var has_graph_been_reached = false;
