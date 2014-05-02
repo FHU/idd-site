@@ -494,8 +494,7 @@ and (max-width : 346px)
 	font-size: 30px;
 }
 
-.carousel img {
-	margin: 40px;
+.carousel {
 }
 
 /************************** Classes **************************/

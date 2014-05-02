@@ -13,21 +13,31 @@ $(document).ready(function(){
 	  autoplay: false,
 	  arrows: true,
 	  lazyLoad: 'ondemand',
-	  infinite: true
+	  infinite: true,
+	  dots: true
 	});
+
+	/*var siteCarousel = $('#site-carousel');
+
+	$('#site-next').click(function() {
+		siteCarousel.slick.slickNext();
+		this.preventDefault();
+	});*/
 
 	$('#product-carousel').slick({
 	  autoplay: false,
 	  arrows: true,
 	  lazyLoad: 'ondemand',
-	  infinite: true
+	  infinite: true,
+	  dots: true
 	});
 
 	$('#app-carousel').slick({
 	  autoplay: false,
 	  arrows: true,
 	  lazyLoad: 'ondemand',
-	  infinite: true
+	  infinite: true,
+	  dots: true
 	});
 
 });
