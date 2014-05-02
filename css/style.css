@@ -485,12 +485,12 @@ and (max-width : 346px)
 	text-decoration: none;
 }
 
-.slick-prev { left: -25px; }
+.slick-prev { left: 0px; }
 
-.slick-next { right: -25px; }
+.slick-next { right: 0px; }
 
 .slick-prev:before, .slick-next:before {
-	color: #adadad;
+	color: #111;
 	font-size: 30px;
 }
 
