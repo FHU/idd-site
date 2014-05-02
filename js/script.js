@@ -10,10 +10,10 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$('.owl-carousel').slick({
-	  autoplay: true,
+	  autoplay: false,
 	  arrows: false
 	});
-	$('.owl-carousel').slickPlay();
+	//$('.owl-carousel').slickPlay();
 });
 
 var has_graph_been_reached = false;
