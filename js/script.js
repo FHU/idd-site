@@ -9,11 +9,27 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-	$('.owl-carousel').slick({
+	$('#site-carousel').slick({
 	  autoplay: false,
-	  arrows: false
+	  arrows: true,
+	  lazyLoad: 'ondemand',
+	  infinite: true
 	});
-	//$('.owl-carousel').slickPlay();
+
+	$('#product-carousel').slick({
+	  autoplay: false,
+	  arrows: true,
+	  lazyLoad: 'ondemand',
+	  infinite: true
+	});
+
+	$('#app-carousel').slick({
+	  autoplay: false,
+	  arrows: true,
+	  lazyLoad: 'ondemand',
+	  infinite: true
+	});
+
 });
 
 var has_graph_been_reached = false;

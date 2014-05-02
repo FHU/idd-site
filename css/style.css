@@ -484,6 +484,20 @@ and (max-width : 346px)
 	color: #000;
 	text-decoration: none;
 }
+
+.slick-prev { left: -25px; }
+
+.slick-next { right: -25px; }
+
+.slick-prev:before, .slick-next:before {
+	color: #adadad;
+	font-size: 30px;
+}
+
+.carousel img {
+	margin: 40px;
+}
+
 /************************** Classes **************************/
 #classes .paint {
 	position: absolute;
