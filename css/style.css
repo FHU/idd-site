@@ -907,8 +907,17 @@ and (max-width : 346px)
 	margin-bottom: 0;
 }
 
-#learn .portrait {
-    margin-top: 40px;
+#learn .row {
+    margin-bottom: 30px;
+}    
+
+#learn .row:last-child {
+    margin-bottom: 0;
+}
+    
+#learn .row img {
+    max-height: 400px !important;
+    max-width: 300px !important;
 }
 
 @media (max-width: 768px) {
