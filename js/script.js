@@ -16,7 +16,7 @@ $(document).ready(function () {
         lazyLoad: 'ondemand',
         infinite: true,
         dots: true,
-        touchMove: false
+        touchMove: true
     });
 
     /*var siteCarousel = $('#site-carousel');
@@ -32,7 +32,7 @@ $(document).ready(function () {
         lazyLoad: 'ondemand',
         infinite: true,
         dots: true,
-        touchMove: false
+        touchMove: true
     });
 
     $('#app-carousel').slick({
@@ -41,7 +41,7 @@ $(document).ready(function () {
         lazyLoad: 'ondemand',
         infinite: true,
         dots: true,
-        touchMove: false
+        touchMove: true
     });
 
 });
