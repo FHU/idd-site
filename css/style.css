@@ -837,7 +837,7 @@ and (max-width : 346px)
 #learn .paint {
 	position: absolute;
 	left: -65%;
-	bottom: 57%;
+	bottom: 83%;
 	z-index: -1;
 }
 
@@ -1094,6 +1094,10 @@ and (max-width : 346px)
 	padding-top: 15px;
 }
 
+a button strong span:hover{
+	text-decoration: none;
+}
+
 /************************ Footer ************************/
 
 footer {
@@ -1104,7 +1108,7 @@ footer .container {
 	display: block;
 	margin:0 auto;
 	background-color: #e8e8e8;
-  opacity: 0.8;
+	opacity: 0.8;
 	width:100%;
 	text-align: center;
 }
@@ -1125,7 +1129,7 @@ footer .container span, footer .container a {
     margin: 0 5px;
 }
 
- footer .container div {
+footer .container div {
     display: inline;
  }
 
@@ -1134,4 +1138,3 @@ footer .container span, footer .container a {
 	display: block;
     }
 }
-
